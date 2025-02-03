@@ -1,0 +1,15 @@
+diff --git a/node_modules/react-native-snackbar-material/portal/portal-host.js b/node_modules/react-native-snackbar-material/portal/portal-host.js
+index 9a666e9..d226efa 100644
+--- a/node_modules/react-native-snackbar-material/portal/portal-host.js
++++ b/node_modules/react-native-snackbar-material/portal/portal-host.js
+@@ -62,8 +62,8 @@ export default class PortalHost extends React.Component {
+     }
+   }
+   componentWillUnmount() {
+-    TopViewEventEmitter.removeListener(addType, this._mount);
+-    TopViewEventEmitter.removeListener(removeType, this._unmount);
++    TopViewEventEmitter.removeAllListeners(addType, this._mount);
++    TopViewEventEmitter.removeAllListeners(removeType, this._unmount);
+   }
+   _setManager = manager => {
+     this._manager = manager;
