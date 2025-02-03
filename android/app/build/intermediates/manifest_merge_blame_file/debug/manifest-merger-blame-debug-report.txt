@@ -1,0 +1,492 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="uk.co.adappt.whoarv"
+4    android:versionCode="16"
+5    android:versionName="1.2" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/Users/lathak/Ongoing/who/HIV_TX/PushFCM/android/app/src/main/AndroidManifest.xml:8:5-77
+11-->/Users/lathak/Ongoing/who/HIV_TX/PushFCM/android/app/src/main/AndroidManifest.xml:8:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/lathak/Ongoing/who/HIV_TX/PushFCM/android/app/src/main/AndroidManifest.xml:6:5-67
+12-->/Users/lathak/Ongoing/who/HIV_TX/PushFCM/android/app/src/main/AndroidManifest.xml:6:22-64
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->/Users/lathak/Ongoing/who/HIV_TX/PushFCM/android/app/src/main/AndroidManifest.xml:7:5-79
+13-->/Users/lathak/Ongoing/who/HIV_TX/PushFCM/android/app/src/main/AndroidManifest.xml:7:22-76
+14    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+14-->/Users/lathak/Ongoing/who/HIV_TX/PushFCM/android/app/src/main/AndroidManifest.xml:9:5-76
+14-->/Users/lathak/Ongoing/who/HIV_TX/PushFCM/android/app/src/main/AndroidManifest.xml:9:22-74
+15    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+15-->[com.facebook.flipper:flipper:0.125.0] /Users/lathak/.gradle/caches/transforms-3/5b91ad6c684ef3bf6beb52c386059402/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:16:5-76
+15-->[com.facebook.flipper:flipper:0.125.0] /Users/lathak/.gradle/caches/transforms-3/5b91ad6c684ef3bf6beb52c386059402/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:16:22-73
+16    <uses-permission android:name="android.permission.WAKE_LOCK" />
+16-->[:react-native-firebase_messaging] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-68
+16-->[:react-native-firebase_messaging] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:22-65
+17    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> <!-- Required to access Google Play Licensing -->
+17-->[:react-native-fs] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/react-native-fs/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-81
+17-->[:react-native-fs] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/react-native-fs/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:22-78
+18    <uses-permission android:name="com.android.vending.CHECK_LICENSE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+18-->[:rn-fetch-blob] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-73
+18-->[:rn-fetch-blob] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:22-70
+19    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+19-->[com.google.firebase:firebase-messaging:23.4.0] /Users/lathak/.gradle/caches/transforms-3/1dd3931f266dd48d2cd86a67d97bb929/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:26:5-82
+19-->[com.google.firebase:firebase-messaging:23.4.0] /Users/lathak/.gradle/caches/transforms-3/1dd3931f266dd48d2cd86a67d97bb929/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:26:22-79
+20    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- for android -->
+20-->[com.android.installreferrer:installreferrer:1.1.2] /Users/lathak/.gradle/caches/transforms-3/1030bea5bdcc199fea7899eac15e52ec/transformed/jetified-installreferrer-1.1.2/AndroidManifest.xml:9:5-110
+20-->[com.android.installreferrer:installreferrer:1.1.2] /Users/lathak/.gradle/caches/transforms-3/1030bea5bdcc199fea7899eac15e52ec/transformed/jetified-installreferrer-1.1.2/AndroidManifest.xml:9:22-107
+21    <!-- <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS"/> -->
+22    <!-- <uses-permission android:name="com.android.launcher.permission.WRITE_SETTINGS"/> -->
+23    <!-- <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" /> -->
+24    <!-- <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" /> -->
+25    <!-- for Samsung -->
+26    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
+26-->[me.leolin:ShortcutBadger:1.1.22] /Users/lathak/.gradle/caches/transforms-3/e6a83873ebaf787421c56147ece75a17/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:19:5-86
+26-->[me.leolin:ShortcutBadger:1.1.22] /Users/lathak/.gradle/caches/transforms-3/e6a83873ebaf787421c56147ece75a17/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:19:22-83
+27    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" /> <!-- for htc -->
+27-->[me.leolin:ShortcutBadger:1.1.22] /Users/lathak/.gradle/caches/transforms-3/e6a83873ebaf787421c56147ece75a17/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:20:5-87
+27-->[me.leolin:ShortcutBadger:1.1.22] /Users/lathak/.gradle/caches/transforms-3/e6a83873ebaf787421c56147ece75a17/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:20:22-84
+28    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
+28-->[me.leolin:ShortcutBadger:1.1.22] /Users/lathak/.gradle/caches/transforms-3/e6a83873ebaf787421c56147ece75a17/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:23:5-81
+28-->[me.leolin:ShortcutBadger:1.1.22] /Users/lathak/.gradle/caches/transforms-3/e6a83873ebaf787421c56147ece75a17/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:23:22-78
+29    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" /> <!-- for sony -->
+29-->[me.leolin:ShortcutBadger:1.1.22] /Users/lathak/.gradle/caches/transforms-3/e6a83873ebaf787421c56147ece75a17/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:24:5-83
+29-->[me.leolin:ShortcutBadger:1.1.22] /Users/lathak/.gradle/caches/transforms-3/e6a83873ebaf787421c56147ece75a17/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:24:22-80
+30    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
+30-->[me.leolin:ShortcutBadger:1.1.22] /Users/lathak/.gradle/caches/transforms-3/e6a83873ebaf787421c56147ece75a17/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:27:5-88
+30-->[me.leolin:ShortcutBadger:1.1.22] /Users/lathak/.gradle/caches/transforms-3/e6a83873ebaf787421c56147ece75a17/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:27:22-85
+31    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE" /> <!-- for apex -->
+31-->[me.leolin:ShortcutBadger:1.1.22] /Users/lathak/.gradle/caches/transforms-3/e6a83873ebaf787421c56147ece75a17/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:28:5-92
+31-->[me.leolin:ShortcutBadger:1.1.22] /Users/lathak/.gradle/caches/transforms-3/e6a83873ebaf787421c56147ece75a17/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:28:22-89
+32    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" /> <!-- for solid -->
+32-->[me.leolin:ShortcutBadger:1.1.22] /Users/lathak/.gradle/caches/transforms-3/e6a83873ebaf787421c56147ece75a17/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:31:5-84
+32-->[me.leolin:ShortcutBadger:1.1.22] /Users/lathak/.gradle/caches/transforms-3/e6a83873ebaf787421c56147ece75a17/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:31:22-81
+33    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" /> <!-- for huawei -->
+33-->[me.leolin:ShortcutBadger:1.1.22] /Users/lathak/.gradle/caches/transforms-3/e6a83873ebaf787421c56147ece75a17/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:34:5-83
+33-->[me.leolin:ShortcutBadger:1.1.22] /Users/lathak/.gradle/caches/transforms-3/e6a83873ebaf787421c56147ece75a17/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:34:22-80
+34    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
+34-->[me.leolin:ShortcutBadger:1.1.22] /Users/lathak/.gradle/caches/transforms-3/e6a83873ebaf787421c56147ece75a17/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:37:5-91
+34-->[me.leolin:ShortcutBadger:1.1.22] /Users/lathak/.gradle/caches/transforms-3/e6a83873ebaf787421c56147ece75a17/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:37:22-88
+35    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
+35-->[me.leolin:ShortcutBadger:1.1.22] /Users/lathak/.gradle/caches/transforms-3/e6a83873ebaf787421c56147ece75a17/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:38:5-92
+35-->[me.leolin:ShortcutBadger:1.1.22] /Users/lathak/.gradle/caches/transforms-3/e6a83873ebaf787421c56147ece75a17/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:38:22-89
+36    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" /> <!-- for ZUK -->
+36-->[me.leolin:ShortcutBadger:1.1.22] /Users/lathak/.gradle/caches/transforms-3/e6a83873ebaf787421c56147ece75a17/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:39:5-93
+36-->[me.leolin:ShortcutBadger:1.1.22] /Users/lathak/.gradle/caches/transforms-3/e6a83873ebaf787421c56147ece75a17/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:39:22-90
+37    <uses-permission android:name="android.permission.READ_APP_BADGE" /> <!-- for OPPO -->
+37-->[me.leolin:ShortcutBadger:1.1.22] /Users/lathak/.gradle/caches/transforms-3/e6a83873ebaf787421c56147ece75a17/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:42:5-73
+37-->[me.leolin:ShortcutBadger:1.1.22] /Users/lathak/.gradle/caches/transforms-3/e6a83873ebaf787421c56147ece75a17/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:42:22-70
+38    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS" />
+38-->[me.leolin:ShortcutBadger:1.1.22] /Users/lathak/.gradle/caches/transforms-3/e6a83873ebaf787421c56147ece75a17/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:45:5-82
+38-->[me.leolin:ShortcutBadger:1.1.22] /Users/lathak/.gradle/caches/transforms-3/e6a83873ebaf787421c56147ece75a17/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:45:22-79
+39    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS" /> <!-- for EvMe -->
+39-->[me.leolin:ShortcutBadger:1.1.22] /Users/lathak/.gradle/caches/transforms-3/e6a83873ebaf787421c56147ece75a17/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:46:5-83
+39-->[me.leolin:ShortcutBadger:1.1.22] /Users/lathak/.gradle/caches/transforms-3/e6a83873ebaf787421c56147ece75a17/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:46:22-80
+40    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ" />
+40-->[me.leolin:ShortcutBadger:1.1.22] /Users/lathak/.gradle/caches/transforms-3/e6a83873ebaf787421c56147ece75a17/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:49:5-88
+40-->[me.leolin:ShortcutBadger:1.1.22] /Users/lathak/.gradle/caches/transforms-3/e6a83873ebaf787421c56147ece75a17/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:49:22-85
+41    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE" />
+41-->[me.leolin:ShortcutBadger:1.1.22] /Users/lathak/.gradle/caches/transforms-3/e6a83873ebaf787421c56147ece75a17/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:50:5-89
+41-->[me.leolin:ShortcutBadger:1.1.22] /Users/lathak/.gradle/caches/transforms-3/e6a83873ebaf787421c56147ece75a17/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:50:22-86
+42
+43    <application
+43-->/Users/lathak/Ongoing/who/HIV_TX/PushFCM/android/app/src/main/AndroidManifest.xml:10:5-46:19
+44        android:name="uk.co.adappt.whoarv.MainApplication"
+44-->/Users/lathak/Ongoing/who/HIV_TX/PushFCM/android/app/src/main/AndroidManifest.xml:11:7-38
+45        android:allowBackup="false"
+45-->/Users/lathak/Ongoing/who/HIV_TX/PushFCM/android/app/src/main/AndroidManifest.xml:15:7-34
+46        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+46-->[androidx.core:core:1.8.0] /Users/lathak/.gradle/caches/transforms-3/a2492433d7cfb2901a40b00e6681f739/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
+47        android:debuggable="true"
+48        android:icon="@mipmap/ic_launcher"
+48-->/Users/lathak/Ongoing/who/HIV_TX/PushFCM/android/app/src/main/AndroidManifest.xml:13:7-41
+49        android:label="@string/app_name"
+49-->/Users/lathak/Ongoing/who/HIV_TX/PushFCM/android/app/src/main/AndroidManifest.xml:12:7-39
+50        android:roundIcon="@mipmap/ic_launcher_round"
+50-->/Users/lathak/Ongoing/who/HIV_TX/PushFCM/android/app/src/main/AndroidManifest.xml:14:7-52
+51        android:testOnly="true"
+52        android:theme="@style/AppTheme"
+52-->/Users/lathak/Ongoing/who/HIV_TX/PushFCM/android/app/src/main/AndroidManifest.xml:16:7-38
+53        android:usesCleartextTraffic="true" >
+53-->/Users/lathak/Ongoing/who/HIV_TX/PushFCM/android/app/src/debug/AndroidManifest.xml:8:9-44
+54        <activity
+54-->/Users/lathak/Ongoing/who/HIV_TX/PushFCM/android/app/src/main/AndroidManifest.xml:37:7-84
+55            android:name="com.facebook.react.devsupport.DevSettingsActivity"
+55-->/Users/lathak/Ongoing/who/HIV_TX/PushFCM/android/app/src/main/AndroidManifest.xml:37:17-81
+56            android:exported="false" />
+56-->/Users/lathak/Ongoing/who/HIV_TX/PushFCM/android/app/src/debug/AndroidManifest.xml:11:84-108
+57        <activity
+57-->/Users/lathak/Ongoing/who/HIV_TX/PushFCM/android/app/src/main/AndroidManifest.xml:18:7-36:18
+58            android:name="uk.co.adappt.whoarv.MainActivity"
+58-->/Users/lathak/Ongoing/who/HIV_TX/PushFCM/android/app/src/main/AndroidManifest.xml:19:9-37
+59            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+59-->/Users/lathak/Ongoing/who/HIV_TX/PushFCM/android/app/src/main/AndroidManifest.xml:21:9-118
+60            android:exported="true"
+60-->/Users/lathak/Ongoing/who/HIV_TX/PushFCM/android/app/src/main/AndroidManifest.xml:24:9-32
+61            android:label="@string/app_name"
+61-->/Users/lathak/Ongoing/who/HIV_TX/PushFCM/android/app/src/main/AndroidManifest.xml:20:9-41
+62            android:launchMode="singleTask"
+62-->/Users/lathak/Ongoing/who/HIV_TX/PushFCM/android/app/src/main/AndroidManifest.xml:22:9-40
+63            android:screenOrientation="portrait"
+63-->/Users/lathak/Ongoing/who/HIV_TX/PushFCM/android/app/src/main/AndroidManifest.xml:23:9-45
+64            android:windowSoftInputMode="adjustResize" >
+64-->/Users/lathak/Ongoing/who/HIV_TX/PushFCM/android/app/src/main/AndroidManifest.xml:25:9-51
+65            <intent-filter>
+65-->/Users/lathak/Ongoing/who/HIV_TX/PushFCM/android/app/src/main/AndroidManifest.xml:26:9-29:25
+66                <action android:name="android.intent.action.MAIN" />
+66-->/Users/lathak/Ongoing/who/HIV_TX/PushFCM/android/app/src/main/AndroidManifest.xml:27:13-65
+66-->/Users/lathak/Ongoing/who/HIV_TX/PushFCM/android/app/src/main/AndroidManifest.xml:27:21-62
+67
+68                <category android:name="android.intent.category.LAUNCHER" />
+68-->/Users/lathak/Ongoing/who/HIV_TX/PushFCM/android/app/src/main/AndroidManifest.xml:28:13-73
+68-->/Users/lathak/Ongoing/who/HIV_TX/PushFCM/android/app/src/main/AndroidManifest.xml:28:23-70
+69            </intent-filter>
+70            <intent-filter android:label="@string/app_name" >
+70-->/Users/lathak/Ongoing/who/HIV_TX/PushFCM/android/app/src/main/AndroidManifest.xml:30:9-35:25
+70-->/Users/lathak/Ongoing/who/HIV_TX/PushFCM/android/app/src/main/AndroidManifest.xml:30:24-56
+71                <action android:name="android.intent.action.VIEW" />
+71-->/Users/lathak/Ongoing/who/HIV_TX/PushFCM/android/app/src/main/AndroidManifest.xml:31:13-65
+71-->/Users/lathak/Ongoing/who/HIV_TX/PushFCM/android/app/src/main/AndroidManifest.xml:31:21-62
+72
+73                <category android:name="android.intent.category.DEFAULT" />
+73-->/Users/lathak/Ongoing/who/HIV_TX/PushFCM/android/app/src/main/AndroidManifest.xml:32:13-72
+73-->/Users/lathak/Ongoing/who/HIV_TX/PushFCM/android/app/src/main/AndroidManifest.xml:32:23-69
+74                <category android:name="android.intent.category.BROWSABLE" />
+74-->/Users/lathak/Ongoing/who/HIV_TX/PushFCM/android/app/src/main/AndroidManifest.xml:33:13-74
+74-->/Users/lathak/Ongoing/who/HIV_TX/PushFCM/android/app/src/main/AndroidManifest.xml:33:23-71
+75
+76                <data android:scheme="whohivtx" />
+76-->/Users/lathak/Ongoing/who/HIV_TX/PushFCM/android/app/src/main/AndroidManifest.xml:34:13-46
+76-->/Users/lathak/Ongoing/who/HIV_TX/PushFCM/android/app/src/main/AndroidManifest.xml:34:19-44
+77            </intent-filter>
+78        </activity>
+79
+80        <meta-data
+80-->/Users/lathak/Ongoing/who/HIV_TX/PushFCM/android/app/src/main/AndroidManifest.xml:38:7-40:64
+81            android:name="com.google.firebase.messaging.default_notification_icon"
+81-->/Users/lathak/Ongoing/who/HIV_TX/PushFCM/android/app/src/main/AndroidManifest.xml:39:11-81
+82            android:resource="@mipmap/ic_stat_ic_notification" />
+82-->/Users/lathak/Ongoing/who/HIV_TX/PushFCM/android/app/src/main/AndroidManifest.xml:40:11-61
+83        <meta-data
+83-->/Users/lathak/Ongoing/who/HIV_TX/PushFCM/android/app/src/main/AndroidManifest.xml:41:6-44:46
+84            android:name="com.google.firebase.messaging.default_notification_color"
+84-->/Users/lathak/Ongoing/who/HIV_TX/PushFCM/android/app/src/main/AndroidManifest.xml:42:11-82
+85            android:resource="@color/coloraccent" />
+85-->/Users/lathak/Ongoing/who/HIV_TX/PushFCM/android/app/src/main/AndroidManifest.xml:43:11-48
+86        <meta-data
+86-->/Users/lathak/Ongoing/who/HIV_TX/PushFCM/android/app/src/main/AndroidManifest.xml:45:7-74
+87            android:name="android.max_aspect"
+87-->/Users/lathak/Ongoing/who/HIV_TX/PushFCM/android/app/src/main/AndroidManifest.xml:45:18-51
+88            android:value="2.1" />
+88-->/Users/lathak/Ongoing/who/HIV_TX/PushFCM/android/app/src/main/AndroidManifest.xml:45:52-71
+89
+90        <service
+90-->[:react-native-firebase_messaging] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:9-16:40
+91            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingHeadlessService"
+91-->[:react-native-firebase_messaging] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-103
+92            android:exported="false" />
+92-->[:react-native-firebase_messaging] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-37
+93        <service
+93-->[:react-native-firebase_messaging] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:9-23:19
+94            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingService"
+94-->[:react-native-firebase_messaging] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-95
+95            android:exported="false" >
+95-->[:react-native-firebase_messaging] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-37
+96            <intent-filter>
+96-->[:react-native-firebase_messaging] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-22:29
+97                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+97-->[:react-native-firebase_messaging] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:17-78
+97-->[:react-native-firebase_messaging] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:25-75
+98            </intent-filter>
+99        </service>
+100
+101        <receiver
+101-->[:react-native-firebase_messaging] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:9-32:20
+102            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingReceiver"
+102-->[:react-native-firebase_messaging] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:26:13-96
+103            android:exported="true"
+103-->[:react-native-firebase_messaging] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-36
+104            android:permission="com.google.android.c2dm.permission.SEND" >
+104-->[:react-native-firebase_messaging] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:13-73
+105            <intent-filter>
+105-->[:react-native-firebase_messaging] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:29:13-31:29
+106                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+106-->[:react-native-firebase_messaging] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:30:17-81
+106-->[:react-native-firebase_messaging] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:30:25-78
+107            </intent-filter>
+108        </receiver>
+109
+110        <meta-data
+110-->[:react-native-firebase_messaging] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:34:9-36:36
+111            android:name="firebase_messaging_auto_init_enabled"
+111-->[:react-native-firebase_messaging] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:35:13-64
+112            android:value="true" />
+112-->[:react-native-firebase_messaging] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:36:13-33
+113        <meta-data
+113-->[:react-native-firebase_messaging] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:37:9-39:32
+114            android:name="com.google.firebase.messaging.default_notification_channel_id"
+114-->[:react-native-firebase_messaging] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:38:13-89
+115            android:value="" />
+115-->[:react-native-firebase_messaging] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:39:13-29
+116        <meta-data
+116-->[:react-native-firebase_app] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:9-13:36
+117            android:name="app_data_collection_default_enabled"
+117-->[:react-native-firebase_app] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-63
+118            android:value="true" />
+118-->[:react-native-firebase_app] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-33
+119
+120        <service
+120-->[:react-native-firebase_app] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:9-23:19
+121            android:name="com.google.firebase.components.ComponentDiscoveryService"
+121-->[:react-native-firebase_app] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-84
+122            android:directBootAware="true"
+122-->[:react-native-firebase_app] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-43
+123            android:exported="false" >
+123-->[:react-native-firebase_app] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-37
+124            <meta-data
+124-->[:react-native-firebase_app] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-22:85
+125                android:name="com.google.firebase.components:io.invertase.firebase.app.ReactNativeFirebaseAppRegistrar"
+125-->[:react-native-firebase_app] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:17-120
+126                android:value="com.google.firebase.components.ComponentRegistrar" />
+126-->[:react-native-firebase_app] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:22:17-82
+127            <meta-data
+127-->[com.google.firebase:firebase-messaging:23.4.0] /Users/lathak/.gradle/caches/transforms-3/1dd3931f266dd48d2cd86a67d97bb929/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:57:13-59:85
+128                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingKtxRegistrar"
+128-->[com.google.firebase:firebase-messaging:23.4.0] /Users/lathak/.gradle/caches/transforms-3/1dd3931f266dd48d2cd86a67d97bb929/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:58:17-122
+129                android:value="com.google.firebase.components.ComponentRegistrar" />
+129-->[com.google.firebase:firebase-messaging:23.4.0] /Users/lathak/.gradle/caches/transforms-3/1dd3931f266dd48d2cd86a67d97bb929/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:59:17-82
+130            <meta-data
+130-->[com.google.firebase:firebase-messaging:23.4.0] /Users/lathak/.gradle/caches/transforms-3/1dd3931f266dd48d2cd86a67d97bb929/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:60:13-62:85
+131                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+131-->[com.google.firebase:firebase-messaging:23.4.0] /Users/lathak/.gradle/caches/transforms-3/1dd3931f266dd48d2cd86a67d97bb929/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:61:17-119
+132                android:value="com.google.firebase.components.ComponentRegistrar" />
+132-->[com.google.firebase:firebase-messaging:23.4.0] /Users/lathak/.gradle/caches/transforms-3/1dd3931f266dd48d2cd86a67d97bb929/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:62:17-82
+133            <meta-data
+133-->[com.google.firebase:firebase-datatransport:18.1.7] /Users/lathak/.gradle/caches/transforms-3/7340e9f7181e7ca537dc07334dce5584/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:27:13-29:85
+134                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+134-->[com.google.firebase:firebase-datatransport:18.1.7] /Users/lathak/.gradle/caches/transforms-3/7340e9f7181e7ca537dc07334dce5584/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:28:17-115
+135                android:value="com.google.firebase.components.ComponentRegistrar" />
+135-->[com.google.firebase:firebase-datatransport:18.1.7] /Users/lathak/.gradle/caches/transforms-3/7340e9f7181e7ca537dc07334dce5584/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:29:17-82
+136            <meta-data
+136-->[com.google.firebase:firebase-installations:17.2.0] /Users/lathak/.gradle/caches/transforms-3/c7dde428608eeee547683f6ef3459826/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:15:13-17:85
+137                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar"
+137-->[com.google.firebase:firebase-installations:17.2.0] /Users/lathak/.gradle/caches/transforms-3/c7dde428608eeee547683f6ef3459826/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:16:17-130
+138                android:value="com.google.firebase.components.ComponentRegistrar" />
+138-->[com.google.firebase:firebase-installations:17.2.0] /Users/lathak/.gradle/caches/transforms-3/c7dde428608eeee547683f6ef3459826/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:17:17-82
+139            <meta-data
+139-->[com.google.firebase:firebase-installations:17.2.0] /Users/lathak/.gradle/caches/transforms-3/c7dde428608eeee547683f6ef3459826/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:18:13-20:85
+140                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+140-->[com.google.firebase:firebase-installations:17.2.0] /Users/lathak/.gradle/caches/transforms-3/c7dde428608eeee547683f6ef3459826/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:19:17-127
+141                android:value="com.google.firebase.components.ComponentRegistrar" />
+141-->[com.google.firebase:firebase-installations:17.2.0] /Users/lathak/.gradle/caches/transforms-3/c7dde428608eeee547683f6ef3459826/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:20:17-82
+142            <meta-data
+142-->[com.google.firebase:firebase-common-ktx:20.4.2] /Users/lathak/.gradle/caches/transforms-3/73f17854447028e3cbeabaa558136b4f/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:12:13-14:85
+143                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+143-->[com.google.firebase:firebase-common-ktx:20.4.2] /Users/lathak/.gradle/caches/transforms-3/73f17854447028e3cbeabaa558136b4f/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:13:17-116
+144                android:value="com.google.firebase.components.ComponentRegistrar" />
+144-->[com.google.firebase:firebase-common-ktx:20.4.2] /Users/lathak/.gradle/caches/transforms-3/73f17854447028e3cbeabaa558136b4f/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:14:17-82
+145            <meta-data
+145-->[com.google.firebase:firebase-common:20.4.2] /Users/lathak/.gradle/caches/transforms-3/83fb80746af078c658b88e01334c879d/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:35:13-37:85
+146                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+146-->[com.google.firebase:firebase-common:20.4.2] /Users/lathak/.gradle/caches/transforms-3/83fb80746af078c658b88e01334c879d/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:36:17-109
+147                android:value="com.google.firebase.components.ComponentRegistrar" />
+147-->[com.google.firebase:firebase-common:20.4.2] /Users/lathak/.gradle/caches/transforms-3/83fb80746af078c658b88e01334c879d/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:37:17-82
+148        </service>
+149
+150        <provider
+150-->[:react-native-firebase_app] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:9-29:38
+151            android:name="io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider"
+151-->[:react-native-firebase_app] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:26:13-88
+152            android:authorities="uk.co.adappt.whoarv.reactnativefirebaseappinitprovider"
+152-->[:react-native-firebase_app] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-86
+153            android:exported="false"
+153-->[:react-native-firebase_app] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:13-37
+154            android:initOrder="99" />
+154-->[:react-native-firebase_app] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:29:13-35
+155        <provider
+155-->[:react-native-file-viewer] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/react-native-file-viewer/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-18:20
+156            android:name="com.vinzscam.reactnativefileviewer.FileProvider"
+156-->[:react-native-file-viewer] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/react-native-file-viewer/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-75
+157            android:authorities="uk.co.adappt.whoarv.provider"
+157-->[:react-native-file-viewer] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/react-native-file-viewer/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-60
+158            android:exported="false"
+158-->[:react-native-file-viewer] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/react-native-file-viewer/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-37
+159            android:grantUriPermissions="true" >
+159-->[:react-native-file-viewer] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/react-native-file-viewer/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-47
+160            <meta-data
+160-->[:react-native-file-viewer] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/react-native-file-viewer/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-17:70
+161                android:name="android.support.FILE_PROVIDER_PATHS"
+161-->[:react-native-file-viewer] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/react-native-file-viewer/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:17-67
+162                android:resource="@xml/file_viewer_provider_paths" />
+162-->[:react-native-file-viewer] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/react-native-file-viewer/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:17-67
+163        </provider>
+164        <provider
+164-->[:rn-fetch-blob] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:34:9-42:20
+165            android:name="com.RNFetchBlob.Utils.FileProvider"
+165-->[:rn-fetch-blob] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:35:13-62
+166            android:authorities="uk.co.adappt.whoarv.provider"
+166-->[:rn-fetch-blob] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:36:13-60
+167            android:exported="false"
+167-->[:rn-fetch-blob] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:37:13-37
+168            android:grantUriPermissions="true" >
+168-->[:rn-fetch-blob] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:38:13-47
+169            <meta-data
+169-->[:react-native-file-viewer] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/react-native-file-viewer/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-17:70
+170                android:name="android.support.FILE_PROVIDER_PATHS"
+170-->[:react-native-file-viewer] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/react-native-file-viewer/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:17-67
+171                android:resource="@xml/provider_paths" />
+171-->[:react-native-file-viewer] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/react-native-file-viewer/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:17-67
+172        </provider>
+173
+174        <receiver
+174-->[com.google.firebase:firebase-messaging:23.4.0] /Users/lathak/.gradle/caches/transforms-3/1dd3931f266dd48d2cd86a67d97bb929/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:29:9-40:20
+175            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+175-->[com.google.firebase:firebase-messaging:23.4.0] /Users/lathak/.gradle/caches/transforms-3/1dd3931f266dd48d2cd86a67d97bb929/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:30:13-78
+176            android:exported="true"
+176-->[com.google.firebase:firebase-messaging:23.4.0] /Users/lathak/.gradle/caches/transforms-3/1dd3931f266dd48d2cd86a67d97bb929/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:31:13-36
+177            android:permission="com.google.android.c2dm.permission.SEND" >
+177-->[com.google.firebase:firebase-messaging:23.4.0] /Users/lathak/.gradle/caches/transforms-3/1dd3931f266dd48d2cd86a67d97bb929/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:32:13-73
+178            <intent-filter>
+178-->[:react-native-firebase_messaging] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:29:13-31:29
+179                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+179-->[:react-native-firebase_messaging] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:30:17-81
+179-->[:react-native-firebase_messaging] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:30:25-78
+180            </intent-filter>
+181
+182            <meta-data
+182-->[com.google.firebase:firebase-messaging:23.4.0] /Users/lathak/.gradle/caches/transforms-3/1dd3931f266dd48d2cd86a67d97bb929/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:37:13-39:40
+183                android:name="com.google.android.gms.cloudmessaging.FINISHED_AFTER_HANDLED"
+183-->[com.google.firebase:firebase-messaging:23.4.0] /Users/lathak/.gradle/caches/transforms-3/1dd3931f266dd48d2cd86a67d97bb929/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:38:17-92
+184                android:value="true" />
+184-->[com.google.firebase:firebase-messaging:23.4.0] /Users/lathak/.gradle/caches/transforms-3/1dd3931f266dd48d2cd86a67d97bb929/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:39:17-37
+185        </receiver>
+186        <!--
+187             FirebaseMessagingService performs security checks at runtime,
+188             but set to not exported to explicitly avoid allowing another app to call it.
+189        -->
+190        <service
+190-->[com.google.firebase:firebase-messaging:23.4.0] /Users/lathak/.gradle/caches/transforms-3/1dd3931f266dd48d2cd86a67d97bb929/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:46:9-53:19
+191            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+191-->[com.google.firebase:firebase-messaging:23.4.0] /Users/lathak/.gradle/caches/transforms-3/1dd3931f266dd48d2cd86a67d97bb929/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:47:13-82
+192            android:directBootAware="true"
+192-->[com.google.firebase:firebase-messaging:23.4.0] /Users/lathak/.gradle/caches/transforms-3/1dd3931f266dd48d2cd86a67d97bb929/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:48:13-43
+193            android:exported="false" >
+193-->[com.google.firebase:firebase-messaging:23.4.0] /Users/lathak/.gradle/caches/transforms-3/1dd3931f266dd48d2cd86a67d97bb929/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:49:13-37
+194            <intent-filter android:priority="-500" >
+194-->[:react-native-firebase_messaging] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-22:29
+195                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+195-->[:react-native-firebase_messaging] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:17-78
+195-->[:react-native-firebase_messaging] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:25-75
+196            </intent-filter>
+197        </service>
+198        <service
+198-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/lathak/.gradle/caches/transforms-3/7172893dc40c53a03e94b848ce8b95fc/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:28:9-34:19
+199            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+199-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/lathak/.gradle/caches/transforms-3/7172893dc40c53a03e94b848ce8b95fc/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:29:13-103
+200            android:exported="false" >
+200-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/lathak/.gradle/caches/transforms-3/7172893dc40c53a03e94b848ce8b95fc/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:30:13-37
+201            <meta-data
+201-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/lathak/.gradle/caches/transforms-3/7172893dc40c53a03e94b848ce8b95fc/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:31:13-33:39
+202                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+202-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/lathak/.gradle/caches/transforms-3/7172893dc40c53a03e94b848ce8b95fc/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:32:17-94
+203                android:value="cct" />
+203-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/lathak/.gradle/caches/transforms-3/7172893dc40c53a03e94b848ce8b95fc/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:33:17-36
+204        </service>
+205        <service
+205-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/lathak/.gradle/caches/transforms-3/cb7b1a41f260cd4c5b1e27431f89f6eb/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:26:9-30:19
+206            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+206-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/lathak/.gradle/caches/transforms-3/cb7b1a41f260cd4c5b1e27431f89f6eb/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:27:13-117
+207            android:exported="false"
+207-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/lathak/.gradle/caches/transforms-3/cb7b1a41f260cd4c5b1e27431f89f6eb/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:28:13-37
+208            android:permission="android.permission.BIND_JOB_SERVICE" >
+208-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/lathak/.gradle/caches/transforms-3/cb7b1a41f260cd4c5b1e27431f89f6eb/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:29:13-69
+209        </service>
+210
+211        <receiver
+211-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/lathak/.gradle/caches/transforms-3/cb7b1a41f260cd4c5b1e27431f89f6eb/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:32:9-34:40
+212            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+212-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/lathak/.gradle/caches/transforms-3/cb7b1a41f260cd4c5b1e27431f89f6eb/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:33:13-132
+213            android:exported="false" />
+213-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/lathak/.gradle/caches/transforms-3/cb7b1a41f260cd4c5b1e27431f89f6eb/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:34:13-37
+214
+215        <provider
+215-->[com.google.firebase:firebase-common:20.4.2] /Users/lathak/.gradle/caches/transforms-3/83fb80746af078c658b88e01334c879d/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:23:9-28:39
+216            android:name="com.google.firebase.provider.FirebaseInitProvider"
+216-->[com.google.firebase:firebase-common:20.4.2] /Users/lathak/.gradle/caches/transforms-3/83fb80746af078c658b88e01334c879d/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:24:13-77
+217            android:authorities="uk.co.adappt.whoarv.firebaseinitprovider"
+217-->[com.google.firebase:firebase-common:20.4.2] /Users/lathak/.gradle/caches/transforms-3/83fb80746af078c658b88e01334c879d/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:25:13-72
+218            android:directBootAware="true"
+218-->[com.google.firebase:firebase-common:20.4.2] /Users/lathak/.gradle/caches/transforms-3/83fb80746af078c658b88e01334c879d/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:26:13-43
+219            android:exported="false"
+219-->[com.google.firebase:firebase-common:20.4.2] /Users/lathak/.gradle/caches/transforms-3/83fb80746af078c658b88e01334c879d/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:27:13-37
+220            android:initOrder="100" />
+220-->[com.google.firebase:firebase-common:20.4.2] /Users/lathak/.gradle/caches/transforms-3/83fb80746af078c658b88e01334c879d/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:28:13-36
+221
+222        <activity
+222-->[com.google.android.gms:play-services-auth:20.7.0] /Users/lathak/.gradle/caches/transforms-3/b871757fb0b4bb0aefa7fd19e05a9a3e/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:23:9-27:75
+223            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+223-->[com.google.android.gms:play-services-auth:20.7.0] /Users/lathak/.gradle/caches/transforms-3/b871757fb0b4bb0aefa7fd19e05a9a3e/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:24:13-93
+224            android:excludeFromRecents="true"
+224-->[com.google.android.gms:play-services-auth:20.7.0] /Users/lathak/.gradle/caches/transforms-3/b871757fb0b4bb0aefa7fd19e05a9a3e/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:25:13-46
+225            android:exported="false"
+225-->[com.google.android.gms:play-services-auth:20.7.0] /Users/lathak/.gradle/caches/transforms-3/b871757fb0b4bb0aefa7fd19e05a9a3e/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:26:13-37
+226            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+226-->[com.google.android.gms:play-services-auth:20.7.0] /Users/lathak/.gradle/caches/transforms-3/b871757fb0b4bb0aefa7fd19e05a9a3e/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:27:13-72
+227        <!--
+228            Service handling Google Sign-In user revocation. For apps that do not integrate with
+229            Google Sign-In, this service will never be started.
+230        -->
+231        <service
+231-->[com.google.android.gms:play-services-auth:20.7.0] /Users/lathak/.gradle/caches/transforms-3/b871757fb0b4bb0aefa7fd19e05a9a3e/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:33:9-37:51
+232            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+232-->[com.google.android.gms:play-services-auth:20.7.0] /Users/lathak/.gradle/caches/transforms-3/b871757fb0b4bb0aefa7fd19e05a9a3e/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:34:13-89
+233            android:exported="true"
+233-->[com.google.android.gms:play-services-auth:20.7.0] /Users/lathak/.gradle/caches/transforms-3/b871757fb0b4bb0aefa7fd19e05a9a3e/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:35:13-36
+234            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+234-->[com.google.android.gms:play-services-auth:20.7.0] /Users/lathak/.gradle/caches/transforms-3/b871757fb0b4bb0aefa7fd19e05a9a3e/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:36:13-107
+235            android:visibleToInstantApps="true" />
+235-->[com.google.android.gms:play-services-auth:20.7.0] /Users/lathak/.gradle/caches/transforms-3/b871757fb0b4bb0aefa7fd19e05a9a3e/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:37:13-48
+236
+237        <activity
+237-->[com.google.android.gms:play-services-base:18.0.1] /Users/lathak/.gradle/caches/transforms-3/b1e6c70f0a9b2633c78c341afc7965b2/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+238            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+238-->[com.google.android.gms:play-services-base:18.0.1] /Users/lathak/.gradle/caches/transforms-3/b1e6c70f0a9b2633c78c341afc7965b2/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+239            android:exported="false"
+239-->[com.google.android.gms:play-services-base:18.0.1] /Users/lathak/.gradle/caches/transforms-3/b1e6c70f0a9b2633c78c341afc7965b2/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+240            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+240-->[com.google.android.gms:play-services-base:18.0.1] /Users/lathak/.gradle/caches/transforms-3/b1e6c70f0a9b2633c78c341afc7965b2/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+241
+242        <meta-data
+242-->[com.google.android.gms:play-services-basement:18.2.0] /Users/lathak/.gradle/caches/transforms-3/39528a1d149778f51a91310d3762e4d3/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:21:9-23:69
+243            android:name="com.google.android.gms.version"
+243-->[com.google.android.gms:play-services-basement:18.2.0] /Users/lathak/.gradle/caches/transforms-3/39528a1d149778f51a91310d3762e4d3/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:22:13-58
+244            android:value="@integer/google_play_services_version" />
+244-->[com.google.android.gms:play-services-basement:18.2.0] /Users/lathak/.gradle/caches/transforms-3/39528a1d149778f51a91310d3762e4d3/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:23:13-66
+245
+246        <provider
+246-->[androidx.emoji2:emoji2:1.0.0] /Users/lathak/.gradle/caches/transforms-3/164ece5373d9e042b05ffe4bb274b191/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+247            android:name="androidx.startup.InitializationProvider"
+247-->[androidx.emoji2:emoji2:1.0.0] /Users/lathak/.gradle/caches/transforms-3/164ece5373d9e042b05ffe4bb274b191/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
+248            android:authorities="uk.co.adappt.whoarv.androidx-startup"
+248-->[androidx.emoji2:emoji2:1.0.0] /Users/lathak/.gradle/caches/transforms-3/164ece5373d9e042b05ffe4bb274b191/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
+249            android:exported="false" >
+249-->[androidx.emoji2:emoji2:1.0.0] /Users/lathak/.gradle/caches/transforms-3/164ece5373d9e042b05ffe4bb274b191/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
+250            <meta-data
+250-->[androidx.emoji2:emoji2:1.0.0] /Users/lathak/.gradle/caches/transforms-3/164ece5373d9e042b05ffe4bb274b191/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+251                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+251-->[androidx.emoji2:emoji2:1.0.0] /Users/lathak/.gradle/caches/transforms-3/164ece5373d9e042b05ffe4bb274b191/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+252                android:value="androidx.startup" />
+252-->[androidx.emoji2:emoji2:1.0.0] /Users/lathak/.gradle/caches/transforms-3/164ece5373d9e042b05ffe4bb274b191/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+253            <meta-data
+253-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/lathak/.gradle/caches/transforms-3/a66a57866f9b56548f4a7cd4a00ac0cf/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+254                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+254-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/lathak/.gradle/caches/transforms-3/a66a57866f9b56548f4a7cd4a00ac0cf/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+255                android:value="androidx.startup" />
+255-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/lathak/.gradle/caches/transforms-3/a66a57866f9b56548f4a7cd4a00ac0cf/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+256        </provider>
+257    </application>
+258
+259</manifest>

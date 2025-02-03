@@ -1,0 +1,19 @@
+<lint-module
+    format="1"
+    dir="/Users/lathak/Ongoing/who/HIV_TX/PushFCM/android/app"
+    name=":app"
+    type="APP"
+    maven="HIVTX:app:"
+    gradle="7.2.1"
+    buildFolder="build"
+    bootClassPath="/Users/lathak/Library/Android/sdk/platforms/android-34/android.jar:/Users/lathak/Library/Android/sdk/build-tools/30.0.3/core-lambda-stubs.jar"
+    javaSourceLevel="1.8"
+    compileTarget="android-34"
+    neverShrinking="true">
+  <lintOptions
+      abortOnError="true"
+      absolutePaths="true"
+      checkReleaseBuilds="true"
+      explainIssues="true"/>
+  <variant name="release"/>
+</lint-module>

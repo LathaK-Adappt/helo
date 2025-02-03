@@ -1,0 +1,931 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/lathak/Ongoing/who/HIV_TX/PushFCM/android/app/src/main/AndroidManifest.xml:1:1-48:12
+INJECTED from /Users/lathak/Ongoing/who/HIV_TX/PushFCM/android/app/src/main/AndroidManifest.xml:1:1-48:12
+INJECTED from /Users/lathak/Ongoing/who/HIV_TX/PushFCM/android/app/src/main/AndroidManifest.xml:1:1-48:12
+INJECTED from /Users/lathak/Ongoing/who/HIV_TX/PushFCM/android/app/src/main/AndroidManifest.xml:1:1-48:12
+MERGED from [:react-native-async-storage_async-storage] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/@react-native-async-storage/async-storage/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-community_masked-view] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/@react-native-community/masked-view/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-community_netinfo] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/@react-native-community/netinfo/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-12:12
+MERGED from [:react-native-firebase_messaging] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-45:12
+MERGED from [:react-native-firebase_app] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-32:12
+MERGED from [:react-native-config] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/react-native-config/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-device-info] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/react-native-device-info/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-file-viewer] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/react-native-file-viewer/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-21:12
+MERGED from [:react-native-fs] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/react-native-fs/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-gesture-handler] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/react-native-gesture-handler/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-linear-gradient] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/react-native-linear-gradient/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-photo-view] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/react-native-photo-view/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-12:12
+MERGED from [:react-native-push-notification] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/react-native-push-notification/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-safe-area-context] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/react-native-safe-area-context/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-screens] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/react-native-screens/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-splash-screen] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/react-native-splash-screen/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-vector-icons] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/react-native-vector-icons/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:rn-fetch-blob] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-45:12
+MERGED from [com.facebook.react:react-native:0.70.6] /Users/lathak/.gradle/caches/transforms-3/fa19f0a74815b196ff8be1f5575b285d/transformed/jetified-react-native-0.70.6-release/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.firebase:firebase-messaging:23.4.0] /Users/lathak/.gradle/caches/transforms-3/1dd3931f266dd48d2cd86a67d97bb929/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:17:1-66:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] /Users/lathak/.gradle/caches/transforms-3/0da8c87cd997a213502036267155fe52/transformed/swiperefreshlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [org.webkit:android-jsc:r250230] /Users/lathak/.gradle/caches/transforms-3/2df3f1ff897e0f4871d543136df7df99/transformed/jetified-android-jsc-r250230/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-reanimated] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/react-native-reanimated/android/build/.transforms/f456b7a5a940749765431f8e4df9b716/transformed/jetified-react-native-reanimated-70-jsc/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-datatransport:18.1.7] /Users/lathak/.gradle/caches/transforms-3/7340e9f7181e7ca537dc07334dce5584/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:15:1-33:12
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/lathak/.gradle/caches/transforms-3/7172893dc40c53a03e94b848ce8b95fc/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:15:1-37:12
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] /Users/lathak/.gradle/caches/transforms-3/cb7b1a41f260cd4c5b1e27431f89f6eb/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:15:1-41:12
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] /Users/lathak/.gradle/caches/transforms-3/c12f9bc5a93cabaf2f944e192ea601b3/transformed/jetified-firebase-encoders-json-18.0.0/AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.firebase:firebase-installations:17.2.0] /Users/lathak/.gradle/caches/transforms-3/c7dde428608eeee547683f6ef3459826/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:2:1-24:12
+MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] /Users/lathak/.gradle/caches/transforms-3/73f17854447028e3cbeabaa558136b4f/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.firebase:firebase-common:20.4.2] /Users/lathak/.gradle/caches/transforms-3/83fb80746af078c658b88e01334c879d/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:15:1-41:12
+MERGED from [com.google.android.material:material:1.6.1] /Users/lathak/.gradle/caches/transforms-3/2e7db2e13cfb3770e036b400ddf457fa/transformed/material-1.6.1/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/lathak/.gradle/caches/transforms-3/b15ebb5281509a673b7db41f8fc954d2/transformed/constraintlayout-2.0.1/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.4.2] /Users/lathak/.gradle/caches/transforms-3/33311f07bd694dded5c159dec611eb4d/transformed/appcompat-1.4.2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.4.2] /Users/lathak/.gradle/caches/transforms-3/a45e1a0331c67579940279e2730ecdef/transformed/jetified-appcompat-resources-1.4.2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.autofill:autofill:1.1.0] /Users/lathak/.gradle/caches/transforms-3/e73650882ffe5d6d494ca5aa36d810a2/transformed/jetified-autofill-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.facebook.fresco:fresco:2.5.0] /Users/lathak/.gradle/caches/transforms-3/317d927bc73616b0ce3cb9f0669be5e3/transformed/jetified-fresco-2.5.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.5.0] /Users/lathak/.gradle/caches/transforms-3/a8b2558252324e12b78bb46e038f18c5/transformed/jetified-imagepipeline-okhttp3-2.5.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:drawee:2.5.0] /Users/lathak/.gradle/caches/transforms-3/24a6fcd6e82772d1e307c5bd648ba90e/transformed/jetified-drawee-2.5.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:middleware:2.5.0] /Users/lathak/.gradle/caches/transforms-3/0b9c78768cac31699a013598d3884cdb/transformed/jetified-middleware-2.5.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:ui-common:2.5.0] /Users/lathak/.gradle/caches/transforms-3/6396a8c022b24c5509c683ba6ef6b9c6/transformed/jetified-ui-common-2.5.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagefilters:2.5.0] /Users/lathak/.gradle/caches/transforms-3/43a1476035a671f8f6ad951d31fae200/transformed/jetified-nativeimagefilters-2.5.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:memory-type-native:2.5.0] /Users/lathak/.gradle/caches/transforms-3/6e79d3ce95bd9b640bf72aa6e9dd215d/transformed/jetified-memory-type-native-2.5.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:memory-type-java:2.5.0] /Users/lathak/.gradle/caches/transforms-3/56b8f83d74cdc4e6deadee78e24772e4/transformed/jetified-memory-type-java-2.5.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-native:2.5.0] /Users/lathak/.gradle/caches/transforms-3/38f5052479d0bf27aa9047281acf8d10/transformed/jetified-imagepipeline-native-2.5.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:memory-type-ashmem:2.5.0] /Users/lathak/.gradle/caches/transforms-3/ecdbd6b15d867f80a17b0118d39d67d8/transformed/jetified-memory-type-ashmem-2.5.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:2.5.0] /Users/lathak/.gradle/caches/transforms-3/26f615b8b870fee3b91c12693a149189/transformed/jetified-imagepipeline-2.5.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.5.0] /Users/lathak/.gradle/caches/transforms-3/57cef8b23170bc63a8070177ee15b32f/transformed/jetified-nativeimagetranscoder-2.5.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:2.5.0] /Users/lathak/.gradle/caches/transforms-3/75a537e3af73eb16acc3f96d2d28c2f3/transformed/jetified-imagepipeline-base-2.5.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:soloader:2.5.0] /Users/lathak/.gradle/caches/transforms-3/d54055940588845b88a5101136e1be9b/transformed/jetified-soloader-2.5.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.10.4] /Users/lathak/.gradle/caches/transforms-3/940c2275edc2722d7827f526e2622d02/transformed/jetified-soloader-0.10.4/AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/lathak/.gradle/caches/transforms-3/669df083a2ed48528f0d444ac27c8a0c/transformed/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.firebase:firebase-components:17.1.5] /Users/lathak/.gradle/caches/transforms-3/72a6f126242cdefada24fa6dd2a01a30/transformed/jetified-firebase-components-17.1.5/AndroidManifest.xml:15:1-20:12
+MERGED from [com.google.firebase:firebase-installations-interop:17.1.1] /Users/lathak/.gradle/caches/transforms-3/c1268c15ab7d1d5269e0195c6e403412/transformed/jetified-firebase-installations-interop-17.1.1/AndroidManifest.xml:15:1-19:12
+MERGED from [androidx.core:core-ktx:1.8.0] /Users/lathak/.gradle/caches/transforms-3/8cff68f4028dee5a7cc45b1d5064fb65/transformed/jetified-core-ktx-1.8.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-auth:20.7.0] /Users/lathak/.gradle/caches/transforms-3/b871757fb0b4bb0aefa7fd19e05a9a3e/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.android.gms:play-services-iid:17.0.0] /Users/lathak/.gradle/caches/transforms-3/d73f802733cdc768921e5c56725abe49/transformed/jetified-play-services-iid-17.0.0/AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.1] /Users/lathak/.gradle/caches/transforms-3/59873e605a13c14def966bb66fc1bf6d/transformed/jetified-play-services-auth-api-phone-18.0.1/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.4] /Users/lathak/.gradle/caches/transforms-3/897e7f7f5c3403e34e21042067487e75/transformed/jetified-play-services-auth-base-18.0.4/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-fido:20.0.1] /Users/lathak/.gradle/caches/transforms-3/38107f2eef557c2c312ef81f07bf8471/transformed/jetified-play-services-fido-20.0.1/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/lathak/.gradle/caches/transforms-3/b1e6c70f0a9b2633c78c341afc7965b2/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /Users/lathak/.gradle/caches/transforms-3/500c7f1f0bde56cef5874c68732c92b2/transformed/jetified-firebase-iid-interop-17.1.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.1.0] /Users/lathak/.gradle/caches/transforms-3/bbcaf170a99d250b1eff0497cd0559b2/transformed/jetified-play-services-cloud-messaging-17.1.0/AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/lathak/.gradle/caches/transforms-3/51d268953018e40f52458d9841b492bb/transformed/jetified-play-services-stats-17.0.2/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/lathak/.gradle/caches/transforms-3/12cd5e576142a4e9629d7e0911f66149/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement:18.2.0] /Users/lathak/.gradle/caches/transforms-3/39528a1d149778f51a91310d3762e4d3/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/lathak/.gradle/caches/transforms-3/d8bdfbce29b1b0f9c8f7fc997d07aa06/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/lathak/.gradle/caches/transforms-3/df04f001b33f021f78a8fad25ae3d650/transformed/fragment-1.3.6/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.2.0] /Users/lathak/.gradle/caches/transforms-3/30e5eb4a304c8b7f67b1ce01bbaff6c0/transformed/coordinatorlayout-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.datatransport:transport-api:3.1.0] /Users/lathak/.gradle/caches/transforms-3/a778aa2a55ffc9318ab213421aacf0b2/transformed/jetified-transport-api-3.1.0/AndroidManifest.xml:15:1-20:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/lathak/.gradle/caches/transforms-3/97b7ae1ce46fb92a795d1784d1679034/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/lathak/.gradle/caches/transforms-3/414bf3dbbc9a5068217fe258d2647162/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/lathak/.gradle/caches/transforms-3/142bcc71024bf9a8c36fc5db4d53a473/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/lathak/.gradle/caches/transforms-3/e84ddbd1fa4237998e117197eedfe3a7/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/lathak/.gradle/caches/transforms-3/2e240bd73558b4dffc2fef3d05fbf2aa/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.2.4] /Users/lathak/.gradle/caches/transforms-3/3893bed396ba0c8ba97ed8579d5a2b28/transformed/jetified-activity-1.2.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] /Users/lathak/.gradle/caches/transforms-3/eb0783309e819e4d3fe3860c43f7e0b7/transformed/jetified-emoji2-views-helper-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/lathak/.gradle/caches/transforms-3/164ece5373d9e042b05ffe4bb274b191/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/lathak/.gradle/caches/transforms-3/61d8c3037b1eba4c1c0c292e3e5ab9d7/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/lathak/.gradle/caches/transforms-3/f6f6bc922a9702dbc597a4ea451a9a22/transformed/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.2.0] /Users/lathak/.gradle/caches/transforms-3/1f22171de55f6cad7142f3a52448f528/transformed/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/lathak/.gradle/caches/transforms-3/998428a11c3c0afceac1141ef4a934f1/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.1.0] /Users/lathak/.gradle/caches/transforms-3/8e9f28b40c3ec2b58efb3c5db849637e/transformed/customview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.8.0] /Users/lathak/.gradle/caches/transforms-3/a2492433d7cfb2901a40b00e6681f739/transformed/core-1.8.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/lathak/.gradle/caches/transforms-3/4ba3eb6308a1b1b491af447297288e1a/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/lathak/.gradle/caches/transforms-3/ce36f464e4c03368674fef785500ccc4/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/lathak/.gradle/caches/transforms-3/de2cbf8d830ccc675c332bab3c8e3743/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/lathak/.gradle/caches/transforms-3/6f7fec534a3e20c27776023a4676f326/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/lathak/.gradle/caches/transforms-3/cbd85bf61367dff4990027104bdf0a60/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/lathak/.gradle/caches/transforms-3/d94ade7ab0ddb2f20b6a7644e781132b/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/lathak/.gradle/caches/transforms-3/3671db51368b09ca14506dd633a7e702/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/lathak/.gradle/caches/transforms-3/5a3e008e53c0dc7d95a48ea5df2b927d/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/lathak/.gradle/caches/transforms-3/9475ce9f47c1cba04256a4fd216b7b15/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/lathak/.gradle/caches/transforms-3/a66a57866f9b56548f4a7cd4a00ac0cf/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] /Users/lathak/.gradle/caches/transforms-3/a2b4bd4ee89595842838c4647b2a740a/transformed/lifecycle-runtime-2.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/lathak/.gradle/caches/transforms-3/4992887123a58efc9f0d29b1a08d6451/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/lathak/.gradle/caches/transforms-3/91d87b7190601bad28c7ad5d9c9d4b88/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/lathak/.gradle/caches/transforms-3/75c87759b435f02239df2ac2acf943b4/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/lathak/.gradle/caches/transforms-3/6e53c930340a31128e88efa8baa47c36/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/lathak/.gradle/caches/transforms-3/59893e4518531b20a8b4fb7aa5cde946/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/lathak/.gradle/caches/transforms-3/159a273c26ebe31e407e12280b0de0c6/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.fresco:fbcore:2.5.0] /Users/lathak/.gradle/caches/transforms-3/17295f6bb18b6e990ce89d68edc8fb95/transformed/jetified-fbcore-2.5.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.android.installreferrer:installreferrer:1.1.2] /Users/lathak/.gradle/caches/transforms-3/1030bea5bdcc199fea7899eac15e52ec/transformed/jetified-installreferrer-1.1.2/AndroidManifest.xml:2:1-13:12
+MERGED from [me.relex:photodraweeview:2.1.0] /Users/lathak/.gradle/caches/transforms-3/252fb63c84790620f0f827ddb37a2afa/transformed/jetified-photodraweeview-2.1.0/AndroidManifest.xml:2:1-7:12
+MERGED from [me.leolin:ShortcutBadger:1.1.22] /Users/lathak/.gradle/caches/transforms-3/e6a83873ebaf787421c56147ece75a17/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:2:1-52:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/lathak/.gradle/caches/transforms-3/caa70495c0ac0f55fcfcc986c7d1d1e4/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
+INJECTED from /Users/lathak/Ongoing/who/HIV_TX/PushFCM/android/app/src/main/AndroidManifest.xml:1:1-48:12
+INJECTED from /Users/lathak/Ongoing/who/HIV_TX/PushFCM/android/app/src/main/AndroidManifest.xml:1:1-48:12
+INJECTED from /Users/lathak/Ongoing/who/HIV_TX/PushFCM/android/app/src/main/AndroidManifest.xml:1:1-48:12
+	package
+		ADDED from /Users/lathak/Ongoing/who/HIV_TX/PushFCM/android/app/src/main/AndroidManifest.xml:3:5-34
+		INJECTED from /Users/lathak/Ongoing/who/HIV_TX/PushFCM/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/lathak/Ongoing/who/HIV_TX/PushFCM/android/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/lathak/Ongoing/who/HIV_TX/PushFCM/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/lathak/Ongoing/who/HIV_TX/PushFCM/android/app/src/main/AndroidManifest.xml:1:1-48:12
+		INJECTED from /Users/lathak/Ongoing/who/HIV_TX/PushFCM/android/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/lathak/Ongoing/who/HIV_TX/PushFCM/android/app/src/main/AndroidManifest.xml:2:5-51
+	android:versionCode
+		INJECTED from /Users/lathak/Ongoing/who/HIV_TX/PushFCM/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/lathak/Ongoing/who/HIV_TX/PushFCM/android/app/src/main/AndroidManifest.xml:1:1-48:12
+		INJECTED from /Users/lathak/Ongoing/who/HIV_TX/PushFCM/android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/lathak/Ongoing/who/HIV_TX/PushFCM/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/lathak/Ongoing/who/HIV_TX/PushFCM/android/app/src/main/AndroidManifest.xml:6:5-67
+MERGED from [:react-native-firebase_messaging] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-67
+MERGED from [:react-native-firebase_messaging] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-67
+MERGED from [:rn-fetch-blob] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:13:5-67
+MERGED from [:rn-fetch-blob] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:13:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/lathak/.gradle/caches/transforms-3/7172893dc40c53a03e94b848ce8b95fc/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:25:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/lathak/.gradle/caches/transforms-3/7172893dc40c53a03e94b848ce8b95fc/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:25:5-67
+MERGED from [com.google.firebase:firebase-installations:17.2.0] /Users/lathak/.gradle/caches/transforms-3/c7dde428608eeee547683f6ef3459826/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:8:5-67
+MERGED from [com.google.firebase:firebase-installations:17.2.0] /Users/lathak/.gradle/caches/transforms-3/c7dde428608eeee547683f6ef3459826/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:8:5-67
+MERGED from [com.google.android.gms:play-services-iid:17.0.0] /Users/lathak/.gradle/caches/transforms-3/d73f802733cdc768921e5c56725abe49/transformed/jetified-play-services-iid-17.0.0/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-iid:17.0.0] /Users/lathak/.gradle/caches/transforms-3/d73f802733cdc768921e5c56725abe49/transformed/jetified-play-services-iid-17.0.0/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.1.0] /Users/lathak/.gradle/caches/transforms-3/bbcaf170a99d250b1eff0497cd0559b2/transformed/jetified-play-services-cloud-messaging-17.1.0/AndroidManifest.xml:8:5-67
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.1.0] /Users/lathak/.gradle/caches/transforms-3/bbcaf170a99d250b1eff0497cd0559b2/transformed/jetified-play-services-cloud-messaging-17.1.0/AndroidManifest.xml:8:5-67
+	android:name
+		ADDED from /Users/lathak/Ongoing/who/HIV_TX/PushFCM/android/app/src/main/AndroidManifest.xml:6:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/lathak/Ongoing/who/HIV_TX/PushFCM/android/app/src/main/AndroidManifest.xml:7:5-79
+MERGED from [:react-native-community_netinfo] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/@react-native-community/netinfo/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-79
+MERGED from [:react-native-community_netinfo] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/@react-native-community/netinfo/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-79
+MERGED from [:react-native-firebase_messaging] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:5-79
+MERGED from [:react-native-firebase_messaging] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:5-79
+MERGED from [:rn-fetch-blob] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:25:5-79
+MERGED from [:rn-fetch-blob] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:25:5-79
+MERGED from [com.google.firebase:firebase-messaging:23.4.0] /Users/lathak/.gradle/caches/transforms-3/1dd3931f266dd48d2cd86a67d97bb929/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-messaging:23.4.0] /Users/lathak/.gradle/caches/transforms-3/1dd3931f266dd48d2cd86a67d97bb929/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/lathak/.gradle/caches/transforms-3/7172893dc40c53a03e94b848ce8b95fc/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/lathak/.gradle/caches/transforms-3/7172893dc40c53a03e94b848ce8b95fc/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] /Users/lathak/.gradle/caches/transforms-3/cb7b1a41f260cd4c5b1e27431f89f6eb/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] /Users/lathak/.gradle/caches/transforms-3/cb7b1a41f260cd4c5b1e27431f89f6eb/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-installations:17.2.0] /Users/lathak/.gradle/caches/transforms-3/c7dde428608eeee547683f6ef3459826/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:7:5-79
+MERGED from [com.google.firebase:firebase-installations:17.2.0] /Users/lathak/.gradle/caches/transforms-3/c7dde428608eeee547683f6ef3459826/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.1.0] /Users/lathak/.gradle/caches/transforms-3/bbcaf170a99d250b1eff0497cd0559b2/transformed/jetified-play-services-cloud-messaging-17.1.0/AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.1.0] /Users/lathak/.gradle/caches/transforms-3/bbcaf170a99d250b1eff0497cd0559b2/transformed/jetified-play-services-cloud-messaging-17.1.0/AndroidManifest.xml:7:5-79
+	android:name
+		ADDED from /Users/lathak/Ongoing/who/HIV_TX/PushFCM/android/app/src/main/AndroidManifest.xml:7:22-76
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from /Users/lathak/Ongoing/who/HIV_TX/PushFCM/android/app/src/main/AndroidManifest.xml:8:5-77
+	android:name
+		ADDED from /Users/lathak/Ongoing/who/HIV_TX/PushFCM/android/app/src/main/AndroidManifest.xml:8:22-75
+uses-permission#android.permission.POST_NOTIFICATIONS
+ADDED from /Users/lathak/Ongoing/who/HIV_TX/PushFCM/android/app/src/main/AndroidManifest.xml:9:5-76
+MERGED from [com.google.firebase:firebase-messaging:23.4.0] /Users/lathak/.gradle/caches/transforms-3/1dd3931f266dd48d2cd86a67d97bb929/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:23:5-77
+MERGED from [com.google.firebase:firebase-messaging:23.4.0] /Users/lathak/.gradle/caches/transforms-3/1dd3931f266dd48d2cd86a67d97bb929/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:23:5-77
+	android:name
+		ADDED from /Users/lathak/Ongoing/who/HIV_TX/PushFCM/android/app/src/main/AndroidManifest.xml:9:22-74
+application
+ADDED from /Users/lathak/Ongoing/who/HIV_TX/PushFCM/android/app/src/main/AndroidManifest.xml:10:5-46:19
+MERGED from [:react-native-firebase_messaging] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:13:5-43:19
+MERGED from [:react-native-firebase_messaging] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:13:5-43:19
+MERGED from [:react-native-firebase_app] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-30:19
+MERGED from [:react-native-firebase_app] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-30:19
+MERGED from [:react-native-file-viewer] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/react-native-file-viewer/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-19:19
+MERGED from [:react-native-file-viewer] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/react-native-file-viewer/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-19:19
+MERGED from [:react-native-photo-view] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/react-native-photo-view/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-10:19
+MERGED from [:react-native-photo-view] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/react-native-photo-view/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-10:19
+MERGED from [:rn-fetch-blob] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:33:5-43:19
+MERGED from [:rn-fetch-blob] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:33:5-43:19
+MERGED from [com.facebook.react:react-native:0.70.6] /Users/lathak/.gradle/caches/transforms-3/fa19f0a74815b196ff8be1f5575b285d/transformed/jetified-react-native-0.70.6-release/AndroidManifest.xml:9:5-20
+MERGED from [com.facebook.react:react-native:0.70.6] /Users/lathak/.gradle/caches/transforms-3/fa19f0a74815b196ff8be1f5575b285d/transformed/jetified-react-native-0.70.6-release/AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-messaging:23.4.0] /Users/lathak/.gradle/caches/transforms-3/1dd3931f266dd48d2cd86a67d97bb929/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:28:5-64:19
+MERGED from [com.google.firebase:firebase-messaging:23.4.0] /Users/lathak/.gradle/caches/transforms-3/1dd3931f266dd48d2cd86a67d97bb929/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:28:5-64:19
+MERGED from [com.google.firebase:firebase-datatransport:18.1.7] /Users/lathak/.gradle/caches/transforms-3/7340e9f7181e7ca537dc07334dce5584/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:23:5-31:19
+MERGED from [com.google.firebase:firebase-datatransport:18.1.7] /Users/lathak/.gradle/caches/transforms-3/7340e9f7181e7ca537dc07334dce5584/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:23:5-31:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/lathak/.gradle/caches/transforms-3/7172893dc40c53a03e94b848ce8b95fc/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:27:5-35:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/lathak/.gradle/caches/transforms-3/7172893dc40c53a03e94b848ce8b95fc/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:27:5-35:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] /Users/lathak/.gradle/caches/transforms-3/cb7b1a41f260cd4c5b1e27431f89f6eb/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:25:5-39:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] /Users/lathak/.gradle/caches/transforms-3/cb7b1a41f260cd4c5b1e27431f89f6eb/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:25:5-39:19
+MERGED from [com.google.firebase:firebase-installations:17.2.0] /Users/lathak/.gradle/caches/transforms-3/c7dde428608eeee547683f6ef3459826/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:11:5-22:19
+MERGED from [com.google.firebase:firebase-installations:17.2.0] /Users/lathak/.gradle/caches/transforms-3/c7dde428608eeee547683f6ef3459826/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:11:5-22:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] /Users/lathak/.gradle/caches/transforms-3/73f17854447028e3cbeabaa558136b4f/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] /Users/lathak/.gradle/caches/transforms-3/73f17854447028e3cbeabaa558136b4f/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.firebase:firebase-common:20.4.2] /Users/lathak/.gradle/caches/transforms-3/83fb80746af078c658b88e01334c879d/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:22:5-39:19
+MERGED from [com.google.firebase:firebase-common:20.4.2] /Users/lathak/.gradle/caches/transforms-3/83fb80746af078c658b88e01334c879d/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:22:5-39:19
+MERGED from [com.google.android.material:material:1.6.1] /Users/lathak/.gradle/caches/transforms-3/2e7db2e13cfb3770e036b400ddf457fa/transformed/material-1.6.1/AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.material:material:1.6.1] /Users/lathak/.gradle/caches/transforms-3/2e7db2e13cfb3770e036b400ddf457fa/transformed/material-1.6.1/AndroidManifest.xml:24:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/lathak/.gradle/caches/transforms-3/b15ebb5281509a673b7db41f8fc954d2/transformed/constraintlayout-2.0.1/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/lathak/.gradle/caches/transforms-3/b15ebb5281509a673b7db41f8fc954d2/transformed/constraintlayout-2.0.1/AndroidManifest.xml:9:5-20
+MERGED from [com.facebook.soloader:soloader:0.10.4] /Users/lathak/.gradle/caches/transforms-3/940c2275edc2722d7827f526e2622d02/transformed/jetified-soloader-0.10.4/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:soloader:0.10.4] /Users/lathak/.gradle/caches/transforms-3/940c2275edc2722d7827f526e2622d02/transformed/jetified-soloader-0.10.4/AndroidManifest.xml:11:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/lathak/.gradle/caches/transforms-3/669df083a2ed48528f0d444ac27c8a0c/transformed/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/lathak/.gradle/caches/transforms-3/669df083a2ed48528f0d444ac27c8a0c/transformed/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-auth:20.7.0] /Users/lathak/.gradle/caches/transforms-3/b871757fb0b4bb0aefa7fd19e05a9a3e/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.android.gms:play-services-auth:20.7.0] /Users/lathak/.gradle/caches/transforms-3/b871757fb0b4bb0aefa7fd19e05a9a3e/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.android.gms:play-services-iid:17.0.0] /Users/lathak/.gradle/caches/transforms-3/d73f802733cdc768921e5c56725abe49/transformed/jetified-play-services-iid-17.0.0/AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-iid:17.0.0] /Users/lathak/.gradle/caches/transforms-3/d73f802733cdc768921e5c56725abe49/transformed/jetified-play-services-iid-17.0.0/AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-fido:20.0.1] /Users/lathak/.gradle/caches/transforms-3/38107f2eef557c2c312ef81f07bf8471/transformed/jetified-play-services-fido-20.0.1/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-fido:20.0.1] /Users/lathak/.gradle/caches/transforms-3/38107f2eef557c2c312ef81f07bf8471/transformed/jetified-play-services-fido-20.0.1/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/lathak/.gradle/caches/transforms-3/b1e6c70f0a9b2633c78c341afc7965b2/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/lathak/.gradle/caches/transforms-3/b1e6c70f0a9b2633c78c341afc7965b2/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /Users/lathak/.gradle/caches/transforms-3/500c7f1f0bde56cef5874c68732c92b2/transformed/jetified-firebase-iid-interop-17.1.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /Users/lathak/.gradle/caches/transforms-3/500c7f1f0bde56cef5874c68732c92b2/transformed/jetified-firebase-iid-interop-17.1.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/lathak/.gradle/caches/transforms-3/51d268953018e40f52458d9841b492bb/transformed/jetified-play-services-stats-17.0.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/lathak/.gradle/caches/transforms-3/51d268953018e40f52458d9841b492bb/transformed/jetified-play-services-stats-17.0.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/lathak/.gradle/caches/transforms-3/12cd5e576142a4e9629d7e0911f66149/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/lathak/.gradle/caches/transforms-3/12cd5e576142a4e9629d7e0911f66149/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.2.0] /Users/lathak/.gradle/caches/transforms-3/39528a1d149778f51a91310d3762e4d3/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.2.0] /Users/lathak/.gradle/caches/transforms-3/39528a1d149778f51a91310d3762e4d3/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/lathak/.gradle/caches/transforms-3/164ece5373d9e042b05ffe4bb274b191/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/lathak/.gradle/caches/transforms-3/164ece5373d9e042b05ffe4bb274b191/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.core:core:1.8.0] /Users/lathak/.gradle/caches/transforms-3/a2492433d7cfb2901a40b00e6681f739/transformed/core-1.8.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.8.0] /Users/lathak/.gradle/caches/transforms-3/a2492433d7cfb2901a40b00e6681f739/transformed/core-1.8.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/lathak/.gradle/caches/transforms-3/d94ade7ab0ddb2f20b6a7644e781132b/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/lathak/.gradle/caches/transforms-3/d94ade7ab0ddb2f20b6a7644e781132b/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/lathak/.gradle/caches/transforms-3/a66a57866f9b56548f4a7cd4a00ac0cf/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/lathak/.gradle/caches/transforms-3/a66a57866f9b56548f4a7cd4a00ac0cf/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/lathak/.gradle/caches/transforms-3/91d87b7190601bad28c7ad5d9c9d4b88/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/lathak/.gradle/caches/transforms-3/91d87b7190601bad28c7ad5d9c9d4b88/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:25:5-31:19
+MERGED from [com.android.installreferrer:installreferrer:1.1.2] /Users/lathak/.gradle/caches/transforms-3/1030bea5bdcc199fea7899eac15e52ec/transformed/jetified-installreferrer-1.1.2/AndroidManifest.xml:11:5-20
+MERGED from [com.android.installreferrer:installreferrer:1.1.2] /Users/lathak/.gradle/caches/transforms-3/1030bea5bdcc199fea7899eac15e52ec/transformed/jetified-installreferrer-1.1.2/AndroidManifest.xml:11:5-20
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.8.0] /Users/lathak/.gradle/caches/transforms-3/a2492433d7cfb2901a40b00e6681f739/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
+	android:label
+		ADDED from /Users/lathak/Ongoing/who/HIV_TX/PushFCM/android/app/src/main/AndroidManifest.xml:12:7-39
+	android:roundIcon
+		ADDED from /Users/lathak/Ongoing/who/HIV_TX/PushFCM/android/app/src/main/AndroidManifest.xml:14:7-52
+	android:icon
+		ADDED from /Users/lathak/Ongoing/who/HIV_TX/PushFCM/android/app/src/main/AndroidManifest.xml:13:7-41
+	android:allowBackup
+		ADDED from /Users/lathak/Ongoing/who/HIV_TX/PushFCM/android/app/src/main/AndroidManifest.xml:15:7-34
+	android:theme
+		ADDED from /Users/lathak/Ongoing/who/HIV_TX/PushFCM/android/app/src/main/AndroidManifest.xml:16:7-38
+	tools:replace
+		ADDED from /Users/lathak/Ongoing/who/HIV_TX/PushFCM/android/app/src/main/AndroidManifest.xml:17:9-44
+	android:name
+		ADDED from /Users/lathak/Ongoing/who/HIV_TX/PushFCM/android/app/src/main/AndroidManifest.xml:11:7-38
+activity#uk.co.adappt.whoarv.MainActivity
+ADDED from /Users/lathak/Ongoing/who/HIV_TX/PushFCM/android/app/src/main/AndroidManifest.xml:18:7-36:18
+	android:screenOrientation
+		ADDED from /Users/lathak/Ongoing/who/HIV_TX/PushFCM/android/app/src/main/AndroidManifest.xml:23:9-45
+	android:label
+		ADDED from /Users/lathak/Ongoing/who/HIV_TX/PushFCM/android/app/src/main/AndroidManifest.xml:20:9-41
+	android:launchMode
+		ADDED from /Users/lathak/Ongoing/who/HIV_TX/PushFCM/android/app/src/main/AndroidManifest.xml:22:9-40
+	android:windowSoftInputMode
+		ADDED from /Users/lathak/Ongoing/who/HIV_TX/PushFCM/android/app/src/main/AndroidManifest.xml:25:9-51
+	android:exported
+		ADDED from /Users/lathak/Ongoing/who/HIV_TX/PushFCM/android/app/src/main/AndroidManifest.xml:24:9-32
+	android:configChanges
+		ADDED from /Users/lathak/Ongoing/who/HIV_TX/PushFCM/android/app/src/main/AndroidManifest.xml:21:9-118
+	android:name
+		ADDED from /Users/lathak/Ongoing/who/HIV_TX/PushFCM/android/app/src/main/AndroidManifest.xml:19:9-37
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/lathak/Ongoing/who/HIV_TX/PushFCM/android/app/src/main/AndroidManifest.xml:26:9-29:25
+action#android.intent.action.MAIN
+ADDED from /Users/lathak/Ongoing/who/HIV_TX/PushFCM/android/app/src/main/AndroidManifest.xml:27:13-65
+	android:name
+		ADDED from /Users/lathak/Ongoing/who/HIV_TX/PushFCM/android/app/src/main/AndroidManifest.xml:27:21-62
+category#android.intent.category.LAUNCHER
+ADDED from /Users/lathak/Ongoing/who/HIV_TX/PushFCM/android/app/src/main/AndroidManifest.xml:28:13-73
+	android:name
+		ADDED from /Users/lathak/Ongoing/who/HIV_TX/PushFCM/android/app/src/main/AndroidManifest.xml:28:23-70
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:whohivtx
+ADDED from /Users/lathak/Ongoing/who/HIV_TX/PushFCM/android/app/src/main/AndroidManifest.xml:30:9-35:25
+	android:label
+		ADDED from /Users/lathak/Ongoing/who/HIV_TX/PushFCM/android/app/src/main/AndroidManifest.xml:30:24-56
+action#android.intent.action.VIEW
+ADDED from /Users/lathak/Ongoing/who/HIV_TX/PushFCM/android/app/src/main/AndroidManifest.xml:31:13-65
+	android:name
+		ADDED from /Users/lathak/Ongoing/who/HIV_TX/PushFCM/android/app/src/main/AndroidManifest.xml:31:21-62
+category#android.intent.category.DEFAULT
+ADDED from /Users/lathak/Ongoing/who/HIV_TX/PushFCM/android/app/src/main/AndroidManifest.xml:32:13-72
+	android:name
+		ADDED from /Users/lathak/Ongoing/who/HIV_TX/PushFCM/android/app/src/main/AndroidManifest.xml:32:23-69
+category#android.intent.category.BROWSABLE
+ADDED from /Users/lathak/Ongoing/who/HIV_TX/PushFCM/android/app/src/main/AndroidManifest.xml:33:13-74
+	android:name
+		ADDED from /Users/lathak/Ongoing/who/HIV_TX/PushFCM/android/app/src/main/AndroidManifest.xml:33:23-71
+data
+ADDED from /Users/lathak/Ongoing/who/HIV_TX/PushFCM/android/app/src/main/AndroidManifest.xml:34:13-46
+	android:scheme
+		ADDED from /Users/lathak/Ongoing/who/HIV_TX/PushFCM/android/app/src/main/AndroidManifest.xml:34:19-44
+activity#com.facebook.react.devsupport.DevSettingsActivity
+ADDED from /Users/lathak/Ongoing/who/HIV_TX/PushFCM/android/app/src/main/AndroidManifest.xml:37:7-84
+	android:name
+		ADDED from /Users/lathak/Ongoing/who/HIV_TX/PushFCM/android/app/src/main/AndroidManifest.xml:37:17-81
+meta-data#com.google.firebase.messaging.default_notification_icon
+ADDED from /Users/lathak/Ongoing/who/HIV_TX/PushFCM/android/app/src/main/AndroidManifest.xml:38:7-40:64
+	android:resource
+		ADDED from /Users/lathak/Ongoing/who/HIV_TX/PushFCM/android/app/src/main/AndroidManifest.xml:40:11-61
+	android:name
+		ADDED from /Users/lathak/Ongoing/who/HIV_TX/PushFCM/android/app/src/main/AndroidManifest.xml:39:11-81
+meta-data#com.google.firebase.messaging.default_notification_color
+ADDED from /Users/lathak/Ongoing/who/HIV_TX/PushFCM/android/app/src/main/AndroidManifest.xml:41:6-44:46
+MERGED from [:react-native-firebase_messaging] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:40:9-42:47
+MERGED from [:react-native-firebase_messaging] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:40:9-42:47
+	android:resource
+		ADDED from /Users/lathak/Ongoing/who/HIV_TX/PushFCM/android/app/src/main/AndroidManifest.xml:43:11-48
+		REJECTED from [:react-native-firebase_messaging] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:42:13-44
+	tools:replace
+		ADDED from /Users/lathak/Ongoing/who/HIV_TX/PushFCM/android/app/src/main/AndroidManifest.xml:44:11-43
+	android:name
+		ADDED from /Users/lathak/Ongoing/who/HIV_TX/PushFCM/android/app/src/main/AndroidManifest.xml:42:11-82
+meta-data#android.max_aspect
+ADDED from /Users/lathak/Ongoing/who/HIV_TX/PushFCM/android/app/src/main/AndroidManifest.xml:45:7-74
+	android:value
+		ADDED from /Users/lathak/Ongoing/who/HIV_TX/PushFCM/android/app/src/main/AndroidManifest.xml:45:52-71
+	android:name
+		ADDED from /Users/lathak/Ongoing/who/HIV_TX/PushFCM/android/app/src/main/AndroidManifest.xml:45:18-51
+uses-sdk
+INJECTED from /Users/lathak/Ongoing/who/HIV_TX/PushFCM/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/lathak/Ongoing/who/HIV_TX/PushFCM/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/lathak/Ongoing/who/HIV_TX/PushFCM/android/app/src/main/AndroidManifest.xml
+MERGED from [:react-native-async-storage_async-storage] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/@react-native-async-storage/async-storage/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-async-storage_async-storage] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/@react-native-async-storage/async-storage/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_masked-view] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/@react-native-community/masked-view/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_masked-view] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/@react-native-community/masked-view/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_netinfo] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/@react-native-community/netinfo/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_netinfo] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/@react-native-community/netinfo/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-firebase_messaging] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-firebase_messaging] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-firebase_app] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:6:5-8:41
+MERGED from [:react-native-firebase_app] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:6:5-8:41
+MERGED from [:react-native-config] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/react-native-config/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-config] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/react-native-config/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-device-info] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/react-native-device-info/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-device-info] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/react-native-device-info/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-file-viewer] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/react-native-file-viewer/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-file-viewer] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/react-native-file-viewer/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-fs] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/react-native-fs/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-fs] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/react-native-fs/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-gesture-handler] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/react-native-gesture-handler/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-gesture-handler] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/react-native-gesture-handler/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-linear-gradient] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/react-native-linear-gradient/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-linear-gradient] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/react-native-linear-gradient/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-photo-view] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/react-native-photo-view/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-photo-view] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/react-native-photo-view/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-push-notification] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/react-native-push-notification/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-push-notification] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/react-native-push-notification/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-safe-area-context] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/react-native-safe-area-context/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-safe-area-context] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/react-native-safe-area-context/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-screens] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/react-native-screens/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-screens] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/react-native-screens/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-splash-screen] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/react-native-splash-screen/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-splash-screen] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/react-native-splash-screen/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-vector-icons] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/react-native-vector-icons/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-vector-icons] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/react-native-vector-icons/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:rn-fetch-blob] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:rn-fetch-blob] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.react:react-native:0.70.6] /Users/lathak/.gradle/caches/transforms-3/fa19f0a74815b196ff8be1f5575b285d/transformed/jetified-react-native-0.70.6-release/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.react:react-native:0.70.6] /Users/lathak/.gradle/caches/transforms-3/fa19f0a74815b196ff8be1f5575b285d/transformed/jetified-react-native-0.70.6-release/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-messaging:23.4.0] /Users/lathak/.gradle/caches/transforms-3/1dd3931f266dd48d2cd86a67d97bb929/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:23.4.0] /Users/lathak/.gradle/caches/transforms-3/1dd3931f266dd48d2cd86a67d97bb929/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] /Users/lathak/.gradle/caches/transforms-3/0da8c87cd997a213502036267155fe52/transformed/swiperefreshlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] /Users/lathak/.gradle/caches/transforms-3/0da8c87cd997a213502036267155fe52/transformed/swiperefreshlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [org.webkit:android-jsc:r250230] /Users/lathak/.gradle/caches/transforms-3/2df3f1ff897e0f4871d543136df7df99/transformed/jetified-android-jsc-r250230/AndroidManifest.xml:7:5-9:41
+MERGED from [org.webkit:android-jsc:r250230] /Users/lathak/.gradle/caches/transforms-3/2df3f1ff897e0f4871d543136df7df99/transformed/jetified-android-jsc-r250230/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-reanimated] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/react-native-reanimated/android/build/.transforms/f456b7a5a940749765431f8e4df9b716/transformed/jetified-react-native-reanimated-70-jsc/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-reanimated] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/react-native-reanimated/android/build/.transforms/f456b7a5a940749765431f8e4df9b716/transformed/jetified-react-native-reanimated-70-jsc/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-datatransport:18.1.7] /Users/lathak/.gradle/caches/transforms-3/7340e9f7181e7ca537dc07334dce5584/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-datatransport:18.1.7] /Users/lathak/.gradle/caches/transforms-3/7340e9f7181e7ca537dc07334dce5584/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/lathak/.gradle/caches/transforms-3/7172893dc40c53a03e94b848ce8b95fc/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/lathak/.gradle/caches/transforms-3/7172893dc40c53a03e94b848ce8b95fc/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] /Users/lathak/.gradle/caches/transforms-3/cb7b1a41f260cd4c5b1e27431f89f6eb/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] /Users/lathak/.gradle/caches/transforms-3/cb7b1a41f260cd4c5b1e27431f89f6eb/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] /Users/lathak/.gradle/caches/transforms-3/c12f9bc5a93cabaf2f944e192ea601b3/transformed/jetified-firebase-encoders-json-18.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] /Users/lathak/.gradle/caches/transforms-3/c12f9bc5a93cabaf2f944e192ea601b3/transformed/jetified-firebase-encoders-json-18.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-installations:17.2.0] /Users/lathak/.gradle/caches/transforms-3/c7dde428608eeee547683f6ef3459826/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-installations:17.2.0] /Users/lathak/.gradle/caches/transforms-3/c7dde428608eeee547683f6ef3459826/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] /Users/lathak/.gradle/caches/transforms-3/73f17854447028e3cbeabaa558136b4f/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] /Users/lathak/.gradle/caches/transforms-3/73f17854447028e3cbeabaa558136b4f/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:20.4.2] /Users/lathak/.gradle/caches/transforms-3/83fb80746af078c658b88e01334c879d/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:19:5-44
+MERGED from [com.google.firebase:firebase-common:20.4.2] /Users/lathak/.gradle/caches/transforms-3/83fb80746af078c658b88e01334c879d/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:19:5-44
+MERGED from [com.google.android.material:material:1.6.1] /Users/lathak/.gradle/caches/transforms-3/2e7db2e13cfb3770e036b400ddf457fa/transformed/material-1.6.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.6.1] /Users/lathak/.gradle/caches/transforms-3/2e7db2e13cfb3770e036b400ddf457fa/transformed/material-1.6.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/lathak/.gradle/caches/transforms-3/b15ebb5281509a673b7db41f8fc954d2/transformed/constraintlayout-2.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/lathak/.gradle/caches/transforms-3/b15ebb5281509a673b7db41f8fc954d2/transformed/constraintlayout-2.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.4.2] /Users/lathak/.gradle/caches/transforms-3/33311f07bd694dded5c159dec611eb4d/transformed/appcompat-1.4.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.4.2] /Users/lathak/.gradle/caches/transforms-3/33311f07bd694dded5c159dec611eb4d/transformed/appcompat-1.4.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.4.2] /Users/lathak/.gradle/caches/transforms-3/a45e1a0331c67579940279e2730ecdef/transformed/jetified-appcompat-resources-1.4.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.4.2] /Users/lathak/.gradle/caches/transforms-3/a45e1a0331c67579940279e2730ecdef/transformed/jetified-appcompat-resources-1.4.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.1.0] /Users/lathak/.gradle/caches/transforms-3/e73650882ffe5d6d494ca5aa36d810a2/transformed/jetified-autofill-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.1.0] /Users/lathak/.gradle/caches/transforms-3/e73650882ffe5d6d494ca5aa36d810a2/transformed/jetified-autofill-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.facebook.fresco:fresco:2.5.0] /Users/lathak/.gradle/caches/transforms-3/317d927bc73616b0ce3cb9f0669be5e3/transformed/jetified-fresco-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:2.5.0] /Users/lathak/.gradle/caches/transforms-3/317d927bc73616b0ce3cb9f0669be5e3/transformed/jetified-fresco-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.5.0] /Users/lathak/.gradle/caches/transforms-3/a8b2558252324e12b78bb46e038f18c5/transformed/jetified-imagepipeline-okhttp3-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.5.0] /Users/lathak/.gradle/caches/transforms-3/a8b2558252324e12b78bb46e038f18c5/transformed/jetified-imagepipeline-okhttp3-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.5.0] /Users/lathak/.gradle/caches/transforms-3/24a6fcd6e82772d1e307c5bd648ba90e/transformed/jetified-drawee-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.5.0] /Users/lathak/.gradle/caches/transforms-3/24a6fcd6e82772d1e307c5bd648ba90e/transformed/jetified-drawee-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:middleware:2.5.0] /Users/lathak/.gradle/caches/transforms-3/0b9c78768cac31699a013598d3884cdb/transformed/jetified-middleware-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:middleware:2.5.0] /Users/lathak/.gradle/caches/transforms-3/0b9c78768cac31699a013598d3884cdb/transformed/jetified-middleware-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:ui-common:2.5.0] /Users/lathak/.gradle/caches/transforms-3/6396a8c022b24c5509c683ba6ef6b9c6/transformed/jetified-ui-common-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:ui-common:2.5.0] /Users/lathak/.gradle/caches/transforms-3/6396a8c022b24c5509c683ba6ef6b9c6/transformed/jetified-ui-common-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.5.0] /Users/lathak/.gradle/caches/transforms-3/43a1476035a671f8f6ad951d31fae200/transformed/jetified-nativeimagefilters-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.5.0] /Users/lathak/.gradle/caches/transforms-3/43a1476035a671f8f6ad951d31fae200/transformed/jetified-nativeimagefilters-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-native:2.5.0] /Users/lathak/.gradle/caches/transforms-3/6e79d3ce95bd9b640bf72aa6e9dd215d/transformed/jetified-memory-type-native-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-native:2.5.0] /Users/lathak/.gradle/caches/transforms-3/6e79d3ce95bd9b640bf72aa6e9dd215d/transformed/jetified-memory-type-native-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-java:2.5.0] /Users/lathak/.gradle/caches/transforms-3/56b8f83d74cdc4e6deadee78e24772e4/transformed/jetified-memory-type-java-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-java:2.5.0] /Users/lathak/.gradle/caches/transforms-3/56b8f83d74cdc4e6deadee78e24772e4/transformed/jetified-memory-type-java-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-native:2.5.0] /Users/lathak/.gradle/caches/transforms-3/38f5052479d0bf27aa9047281acf8d10/transformed/jetified-imagepipeline-native-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-native:2.5.0] /Users/lathak/.gradle/caches/transforms-3/38f5052479d0bf27aa9047281acf8d10/transformed/jetified-imagepipeline-native-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-ashmem:2.5.0] /Users/lathak/.gradle/caches/transforms-3/ecdbd6b15d867f80a17b0118d39d67d8/transformed/jetified-memory-type-ashmem-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-ashmem:2.5.0] /Users/lathak/.gradle/caches/transforms-3/ecdbd6b15d867f80a17b0118d39d67d8/transformed/jetified-memory-type-ashmem-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.5.0] /Users/lathak/.gradle/caches/transforms-3/26f615b8b870fee3b91c12693a149189/transformed/jetified-imagepipeline-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.5.0] /Users/lathak/.gradle/caches/transforms-3/26f615b8b870fee3b91c12693a149189/transformed/jetified-imagepipeline-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.5.0] /Users/lathak/.gradle/caches/transforms-3/57cef8b23170bc63a8070177ee15b32f/transformed/jetified-nativeimagetranscoder-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.5.0] /Users/lathak/.gradle/caches/transforms-3/57cef8b23170bc63a8070177ee15b32f/transformed/jetified-nativeimagetranscoder-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.5.0] /Users/lathak/.gradle/caches/transforms-3/75a537e3af73eb16acc3f96d2d28c2f3/transformed/jetified-imagepipeline-base-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.5.0] /Users/lathak/.gradle/caches/transforms-3/75a537e3af73eb16acc3f96d2d28c2f3/transformed/jetified-imagepipeline-base-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:soloader:2.5.0] /Users/lathak/.gradle/caches/transforms-3/d54055940588845b88a5101136e1be9b/transformed/jetified-soloader-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:soloader:2.5.0] /Users/lathak/.gradle/caches/transforms-3/d54055940588845b88a5101136e1be9b/transformed/jetified-soloader-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.10.4] /Users/lathak/.gradle/caches/transforms-3/940c2275edc2722d7827f526e2622d02/transformed/jetified-soloader-0.10.4/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.soloader:soloader:0.10.4] /Users/lathak/.gradle/caches/transforms-3/940c2275edc2722d7827f526e2622d02/transformed/jetified-soloader-0.10.4/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/lathak/.gradle/caches/transforms-3/669df083a2ed48528f0d444ac27c8a0c/transformed/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/lathak/.gradle/caches/transforms-3/669df083a2ed48528f0d444ac27c8a0c/transformed/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-components:17.1.5] /Users/lathak/.gradle/caches/transforms-3/72a6f126242cdefada24fa6dd2a01a30/transformed/jetified-firebase-components-17.1.5/AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-components:17.1.5] /Users/lathak/.gradle/caches/transforms-3/72a6f126242cdefada24fa6dd2a01a30/transformed/jetified-firebase-components-17.1.5/AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-installations-interop:17.1.1] /Users/lathak/.gradle/caches/transforms-3/c1268c15ab7d1d5269e0195c6e403412/transformed/jetified-firebase-installations-interop-17.1.1/AndroidManifest.xml:17:5-44
+MERGED from [com.google.firebase:firebase-installations-interop:17.1.1] /Users/lathak/.gradle/caches/transforms-3/c1268c15ab7d1d5269e0195c6e403412/transformed/jetified-firebase-installations-interop-17.1.1/AndroidManifest.xml:17:5-44
+MERGED from [androidx.core:core-ktx:1.8.0] /Users/lathak/.gradle/caches/transforms-3/8cff68f4028dee5a7cc45b1d5064fb65/transformed/jetified-core-ktx-1.8.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.8.0] /Users/lathak/.gradle/caches/transforms-3/8cff68f4028dee5a7cc45b1d5064fb65/transformed/jetified-core-ktx-1.8.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-auth:20.7.0] /Users/lathak/.gradle/caches/transforms-3/b871757fb0b4bb0aefa7fd19e05a9a3e/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:20.7.0] /Users/lathak/.gradle/caches/transforms-3/b871757fb0b4bb0aefa7fd19e05a9a3e/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-iid:17.0.0] /Users/lathak/.gradle/caches/transforms-3/d73f802733cdc768921e5c56725abe49/transformed/jetified-play-services-iid-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-iid:17.0.0] /Users/lathak/.gradle/caches/transforms-3/d73f802733cdc768921e5c56725abe49/transformed/jetified-play-services-iid-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.1] /Users/lathak/.gradle/caches/transforms-3/59873e605a13c14def966bb66fc1bf6d/transformed/jetified-play-services-auth-api-phone-18.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.1] /Users/lathak/.gradle/caches/transforms-3/59873e605a13c14def966bb66fc1bf6d/transformed/jetified-play-services-auth-api-phone-18.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.4] /Users/lathak/.gradle/caches/transforms-3/897e7f7f5c3403e34e21042067487e75/transformed/jetified-play-services-auth-base-18.0.4/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.4] /Users/lathak/.gradle/caches/transforms-3/897e7f7f5c3403e34e21042067487e75/transformed/jetified-play-services-auth-base-18.0.4/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-fido:20.0.1] /Users/lathak/.gradle/caches/transforms-3/38107f2eef557c2c312ef81f07bf8471/transformed/jetified-play-services-fido-20.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-fido:20.0.1] /Users/lathak/.gradle/caches/transforms-3/38107f2eef557c2c312ef81f07bf8471/transformed/jetified-play-services-fido-20.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/lathak/.gradle/caches/transforms-3/b1e6c70f0a9b2633c78c341afc7965b2/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/lathak/.gradle/caches/transforms-3/b1e6c70f0a9b2633c78c341afc7965b2/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:18:5-43
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /Users/lathak/.gradle/caches/transforms-3/500c7f1f0bde56cef5874c68732c92b2/transformed/jetified-firebase-iid-interop-17.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /Users/lathak/.gradle/caches/transforms-3/500c7f1f0bde56cef5874c68732c92b2/transformed/jetified-firebase-iid-interop-17.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.1.0] /Users/lathak/.gradle/caches/transforms-3/bbcaf170a99d250b1eff0497cd0559b2/transformed/jetified-play-services-cloud-messaging-17.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.1.0] /Users/lathak/.gradle/caches/transforms-3/bbcaf170a99d250b1eff0497cd0559b2/transformed/jetified-play-services-cloud-messaging-17.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/lathak/.gradle/caches/transforms-3/51d268953018e40f52458d9841b492bb/transformed/jetified-play-services-stats-17.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/lathak/.gradle/caches/transforms-3/51d268953018e40f52458d9841b492bb/transformed/jetified-play-services-stats-17.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/lathak/.gradle/caches/transforms-3/12cd5e576142a4e9629d7e0911f66149/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/lathak/.gradle/caches/transforms-3/12cd5e576142a4e9629d7e0911f66149/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.2.0] /Users/lathak/.gradle/caches/transforms-3/39528a1d149778f51a91310d3762e4d3/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.2.0] /Users/lathak/.gradle/caches/transforms-3/39528a1d149778f51a91310d3762e4d3/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:18:5-43
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/lathak/.gradle/caches/transforms-3/d8bdfbce29b1b0f9c8f7fc997d07aa06/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/lathak/.gradle/caches/transforms-3/d8bdfbce29b1b0f9c8f7fc997d07aa06/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/lathak/.gradle/caches/transforms-3/df04f001b33f021f78a8fad25ae3d650/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/lathak/.gradle/caches/transforms-3/df04f001b33f021f78a8fad25ae3d650/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.2.0] /Users/lathak/.gradle/caches/transforms-3/30e5eb4a304c8b7f67b1ce01bbaff6c0/transformed/coordinatorlayout-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.2.0] /Users/lathak/.gradle/caches/transforms-3/30e5eb4a304c8b7f67b1ce01bbaff6c0/transformed/coordinatorlayout-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.datatransport:transport-api:3.1.0] /Users/lathak/.gradle/caches/transforms-3/a778aa2a55ffc9318ab213421aacf0b2/transformed/jetified-transport-api-3.1.0/AndroidManifest.xml:18:5-44
+MERGED from [com.google.android.datatransport:transport-api:3.1.0] /Users/lathak/.gradle/caches/transforms-3/a778aa2a55ffc9318ab213421aacf0b2/transformed/jetified-transport-api-3.1.0/AndroidManifest.xml:18:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/lathak/.gradle/caches/transforms-3/97b7ae1ce46fb92a795d1784d1679034/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/lathak/.gradle/caches/transforms-3/97b7ae1ce46fb92a795d1784d1679034/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/lathak/.gradle/caches/transforms-3/414bf3dbbc9a5068217fe258d2647162/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/lathak/.gradle/caches/transforms-3/414bf3dbbc9a5068217fe258d2647162/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/lathak/.gradle/caches/transforms-3/142bcc71024bf9a8c36fc5db4d53a473/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/lathak/.gradle/caches/transforms-3/142bcc71024bf9a8c36fc5db4d53a473/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/lathak/.gradle/caches/transforms-3/e84ddbd1fa4237998e117197eedfe3a7/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/lathak/.gradle/caches/transforms-3/e84ddbd1fa4237998e117197eedfe3a7/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/lathak/.gradle/caches/transforms-3/2e240bd73558b4dffc2fef3d05fbf2aa/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/lathak/.gradle/caches/transforms-3/2e240bd73558b4dffc2fef3d05fbf2aa/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.2.4] /Users/lathak/.gradle/caches/transforms-3/3893bed396ba0c8ba97ed8579d5a2b28/transformed/jetified-activity-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] /Users/lathak/.gradle/caches/transforms-3/3893bed396ba0c8ba97ed8579d5a2b28/transformed/jetified-activity-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] /Users/lathak/.gradle/caches/transforms-3/eb0783309e819e4d3fe3860c43f7e0b7/transformed/jetified-emoji2-views-helper-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] /Users/lathak/.gradle/caches/transforms-3/eb0783309e819e4d3fe3860c43f7e0b7/transformed/jetified-emoji2-views-helper-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/lathak/.gradle/caches/transforms-3/164ece5373d9e042b05ffe4bb274b191/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/lathak/.gradle/caches/transforms-3/164ece5373d9e042b05ffe4bb274b191/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/lathak/.gradle/caches/transforms-3/61d8c3037b1eba4c1c0c292e3e5ab9d7/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/lathak/.gradle/caches/transforms-3/61d8c3037b1eba4c1c0c292e3e5ab9d7/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/lathak/.gradle/caches/transforms-3/f6f6bc922a9702dbc597a4ea451a9a22/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/lathak/.gradle/caches/transforms-3/f6f6bc922a9702dbc597a4ea451a9a22/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/lathak/.gradle/caches/transforms-3/1f22171de55f6cad7142f3a52448f528/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/lathak/.gradle/caches/transforms-3/1f22171de55f6cad7142f3a52448f528/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/lathak/.gradle/caches/transforms-3/998428a11c3c0afceac1141ef4a934f1/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/lathak/.gradle/caches/transforms-3/998428a11c3c0afceac1141ef4a934f1/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /Users/lathak/.gradle/caches/transforms-3/8e9f28b40c3ec2b58efb3c5db849637e/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /Users/lathak/.gradle/caches/transforms-3/8e9f28b40c3ec2b58efb3c5db849637e/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.8.0] /Users/lathak/.gradle/caches/transforms-3/a2492433d7cfb2901a40b00e6681f739/transformed/core-1.8.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.8.0] /Users/lathak/.gradle/caches/transforms-3/a2492433d7cfb2901a40b00e6681f739/transformed/core-1.8.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/lathak/.gradle/caches/transforms-3/4ba3eb6308a1b1b491af447297288e1a/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/lathak/.gradle/caches/transforms-3/4ba3eb6308a1b1b491af447297288e1a/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/lathak/.gradle/caches/transforms-3/ce36f464e4c03368674fef785500ccc4/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/lathak/.gradle/caches/transforms-3/ce36f464e4c03368674fef785500ccc4/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/lathak/.gradle/caches/transforms-3/de2cbf8d830ccc675c332bab3c8e3743/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/lathak/.gradle/caches/transforms-3/de2cbf8d830ccc675c332bab3c8e3743/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/lathak/.gradle/caches/transforms-3/6f7fec534a3e20c27776023a4676f326/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/lathak/.gradle/caches/transforms-3/6f7fec534a3e20c27776023a4676f326/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/lathak/.gradle/caches/transforms-3/cbd85bf61367dff4990027104bdf0a60/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/lathak/.gradle/caches/transforms-3/cbd85bf61367dff4990027104bdf0a60/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/lathak/.gradle/caches/transforms-3/d94ade7ab0ddb2f20b6a7644e781132b/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/lathak/.gradle/caches/transforms-3/d94ade7ab0ddb2f20b6a7644e781132b/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/lathak/.gradle/caches/transforms-3/3671db51368b09ca14506dd633a7e702/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/lathak/.gradle/caches/transforms-3/3671db51368b09ca14506dd633a7e702/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/lathak/.gradle/caches/transforms-3/5a3e008e53c0dc7d95a48ea5df2b927d/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/lathak/.gradle/caches/transforms-3/5a3e008e53c0dc7d95a48ea5df2b927d/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/lathak/.gradle/caches/transforms-3/9475ce9f47c1cba04256a4fd216b7b15/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/lathak/.gradle/caches/transforms-3/9475ce9f47c1cba04256a4fd216b7b15/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/lathak/.gradle/caches/transforms-3/a66a57866f9b56548f4a7cd4a00ac0cf/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/lathak/.gradle/caches/transforms-3/a66a57866f9b56548f4a7cd4a00ac0cf/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] /Users/lathak/.gradle/caches/transforms-3/a2b4bd4ee89595842838c4647b2a740a/transformed/lifecycle-runtime-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] /Users/lathak/.gradle/caches/transforms-3/a2b4bd4ee89595842838c4647b2a740a/transformed/lifecycle-runtime-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/lathak/.gradle/caches/transforms-3/4992887123a58efc9f0d29b1a08d6451/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/lathak/.gradle/caches/transforms-3/4992887123a58efc9f0d29b1a08d6451/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/lathak/.gradle/caches/transforms-3/91d87b7190601bad28c7ad5d9c9d4b88/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/lathak/.gradle/caches/transforms-3/91d87b7190601bad28c7ad5d9c9d4b88/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/lathak/.gradle/caches/transforms-3/75c87759b435f02239df2ac2acf943b4/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/lathak/.gradle/caches/transforms-3/75c87759b435f02239df2ac2acf943b4/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/lathak/.gradle/caches/transforms-3/6e53c930340a31128e88efa8baa47c36/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/lathak/.gradle/caches/transforms-3/6e53c930340a31128e88efa8baa47c36/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/lathak/.gradle/caches/transforms-3/59893e4518531b20a8b4fb7aa5cde946/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/lathak/.gradle/caches/transforms-3/59893e4518531b20a8b4fb7aa5cde946/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/lathak/.gradle/caches/transforms-3/159a273c26ebe31e407e12280b0de0c6/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/lathak/.gradle/caches/transforms-3/159a273c26ebe31e407e12280b0de0c6/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.fresco:fbcore:2.5.0] /Users/lathak/.gradle/caches/transforms-3/17295f6bb18b6e990ce89d68edc8fb95/transformed/jetified-fbcore-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:2.5.0] /Users/lathak/.gradle/caches/transforms-3/17295f6bb18b6e990ce89d68edc8fb95/transformed/jetified-fbcore-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.installreferrer:installreferrer:1.1.2] /Users/lathak/.gradle/caches/transforms-3/1030bea5bdcc199fea7899eac15e52ec/transformed/jetified-installreferrer-1.1.2/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.installreferrer:installreferrer:1.1.2] /Users/lathak/.gradle/caches/transforms-3/1030bea5bdcc199fea7899eac15e52ec/transformed/jetified-installreferrer-1.1.2/AndroidManifest.xml:5:5-7:41
+MERGED from [me.relex:photodraweeview:2.1.0] /Users/lathak/.gradle/caches/transforms-3/252fb63c84790620f0f827ddb37a2afa/transformed/jetified-photodraweeview-2.1.0/AndroidManifest.xml:5:5-44
+MERGED from [me.relex:photodraweeview:2.1.0] /Users/lathak/.gradle/caches/transforms-3/252fb63c84790620f0f827ddb37a2afa/transformed/jetified-photodraweeview-2.1.0/AndroidManifest.xml:5:5-44
+MERGED from [me.leolin:ShortcutBadger:1.1.22] /Users/lathak/.gradle/caches/transforms-3/e6a83873ebaf787421c56147ece75a17/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:7:5-9:41
+MERGED from [me.leolin:ShortcutBadger:1.1.22] /Users/lathak/.gradle/caches/transforms-3/e6a83873ebaf787421c56147ece75a17/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/lathak/.gradle/caches/transforms-3/caa70495c0ac0f55fcfcc986c7d1d1e4/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/lathak/.gradle/caches/transforms-3/caa70495c0ac0f55fcfcc986c7d1d1e4/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+INJECTED from /Users/lathak/Ongoing/who/HIV_TX/PushFCM/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/lathak/Ongoing/who/HIV_TX/PushFCM/android/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/lathak/Ongoing/who/HIV_TX/PushFCM/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/lathak/Ongoing/who/HIV_TX/PushFCM/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/lathak/Ongoing/who/HIV_TX/PushFCM/android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/lathak/Ongoing/who/HIV_TX/PushFCM/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/lathak/Ongoing/who/HIV_TX/PushFCM/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/lathak/Ongoing/who/HIV_TX/PushFCM/android/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from [:react-native-community_netinfo] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/@react-native-community/netinfo/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-76
+MERGED from [:rn-fetch-blob] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:28:5-76
+MERGED from [:rn-fetch-blob] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:28:5-76
+	android:name
+		ADDED from [:react-native-community_netinfo] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/@react-native-community/netinfo/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:22-73
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [:react-native-firebase_messaging] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-68
+MERGED from [:rn-fetch-blob] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:19:5-68
+MERGED from [:rn-fetch-blob] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:19:5-68
+MERGED from [com.google.firebase:firebase-messaging:23.4.0] /Users/lathak/.gradle/caches/transforms-3/1dd3931f266dd48d2cd86a67d97bb929/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-messaging:23.4.0] /Users/lathak/.gradle/caches/transforms-3/1dd3931f266dd48d2cd86a67d97bb929/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.1.0] /Users/lathak/.gradle/caches/transforms-3/bbcaf170a99d250b1eff0497cd0559b2/transformed/jetified-play-services-cloud-messaging-17.1.0/AndroidManifest.xml:9:5-68
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.1.0] /Users/lathak/.gradle/caches/transforms-3/bbcaf170a99d250b1eff0497cd0559b2/transformed/jetified-play-services-cloud-messaging-17.1.0/AndroidManifest.xml:9:5-68
+	android:name
+		ADDED from [:react-native-firebase_messaging] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:22-65
+service#io.invertase.firebase.messaging.ReactNativeFirebaseMessagingHeadlessService
+ADDED from [:react-native-firebase_messaging] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:14:9-16:40
+	android:exported
+		ADDED from [:react-native-firebase_messaging] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:16:13-37
+	android:name
+		ADDED from [:react-native-firebase_messaging] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-103
+service#io.invertase.firebase.messaging.ReactNativeFirebaseMessagingService
+ADDED from [:react-native-firebase_messaging] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:17:9-23:19
+	android:exported
+		ADDED from [:react-native-firebase_messaging] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:19:13-37
+	android:name
+		ADDED from [:react-native-firebase_messaging] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:18:13-95
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from [:react-native-firebase_messaging] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:20:13-22:29
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from [:react-native-firebase_messaging] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:21:17-78
+	android:name
+		ADDED from [:react-native-firebase_messaging] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:21:25-75
+receiver#io.invertase.firebase.messaging.ReactNativeFirebaseMessagingReceiver
+ADDED from [:react-native-firebase_messaging] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:25:9-32:20
+	android:exported
+		ADDED from [:react-native-firebase_messaging] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:27:13-36
+	android:permission
+		ADDED from [:react-native-firebase_messaging] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:28:13-73
+	android:name
+		ADDED from [:react-native-firebase_messaging] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:26:13-96
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [:react-native-firebase_messaging] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:29:13-31:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [:react-native-firebase_messaging] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:30:17-81
+	android:name
+		ADDED from [:react-native-firebase_messaging] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:30:25-78
+meta-data#firebase_messaging_auto_init_enabled
+ADDED from [:react-native-firebase_messaging] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:34:9-36:36
+	android:value
+		ADDED from [:react-native-firebase_messaging] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:36:13-33
+	android:name
+		ADDED from [:react-native-firebase_messaging] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:35:13-64
+meta-data#com.google.firebase.messaging.default_notification_channel_id
+ADDED from [:react-native-firebase_messaging] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:37:9-39:32
+	android:value
+		ADDED from [:react-native-firebase_messaging] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:39:13-29
+	android:name
+		ADDED from [:react-native-firebase_messaging] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:38:13-89
+meta-data#app_data_collection_default_enabled
+ADDED from [:react-native-firebase_app] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:9-13:36
+	android:value
+		ADDED from [:react-native-firebase_app] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-33
+	android:name
+		ADDED from [:react-native-firebase_app] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-63
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [:react-native-firebase_app] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:15:9-23:19
+MERGED from [com.google.firebase:firebase-messaging:23.4.0] /Users/lathak/.gradle/caches/transforms-3/1dd3931f266dd48d2cd86a67d97bb929/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:54:9-63:19
+MERGED from [com.google.firebase:firebase-messaging:23.4.0] /Users/lathak/.gradle/caches/transforms-3/1dd3931f266dd48d2cd86a67d97bb929/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:54:9-63:19
+MERGED from [com.google.firebase:firebase-datatransport:18.1.7] /Users/lathak/.gradle/caches/transforms-3/7340e9f7181e7ca537dc07334dce5584/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:24:9-30:19
+MERGED from [com.google.firebase:firebase-datatransport:18.1.7] /Users/lathak/.gradle/caches/transforms-3/7340e9f7181e7ca537dc07334dce5584/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:24:9-30:19
+MERGED from [com.google.firebase:firebase-installations:17.2.0] /Users/lathak/.gradle/caches/transforms-3/c7dde428608eeee547683f6ef3459826/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:12:9-21:19
+MERGED from [com.google.firebase:firebase-installations:17.2.0] /Users/lathak/.gradle/caches/transforms-3/c7dde428608eeee547683f6ef3459826/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:12:9-21:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] /Users/lathak/.gradle/caches/transforms-3/73f17854447028e3cbeabaa558136b4f/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] /Users/lathak/.gradle/caches/transforms-3/73f17854447028e3cbeabaa558136b4f/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.firebase:firebase-common:20.4.2] /Users/lathak/.gradle/caches/transforms-3/83fb80746af078c658b88e01334c879d/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:30:9-38:19
+MERGED from [com.google.firebase:firebase-common:20.4.2] /Users/lathak/.gradle/caches/transforms-3/83fb80746af078c658b88e01334c879d/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:30:9-38:19
+	android:exported
+		ADDED from [:react-native-firebase_app] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:18:13-37
+	tools:targetApi
+		ADDED from [:react-native-firebase_app] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:19:13-32
+	android:directBootAware
+		ADDED from [:react-native-firebase_app] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-43
+	android:name
+		ADDED from [:react-native-firebase_app] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:16:13-84
+meta-data#com.google.firebase.components:io.invertase.firebase.app.ReactNativeFirebaseAppRegistrar
+ADDED from [:react-native-firebase_app] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:20:13-22:85
+	android:value
+		ADDED from [:react-native-firebase_app] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:22:17-82
+	android:name
+		ADDED from [:react-native-firebase_app] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:21:17-120
+provider#io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider
+ADDED from [:react-native-firebase_app] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:25:9-29:38
+	android:authorities
+		ADDED from [:react-native-firebase_app] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:27:13-86
+	android:exported
+		ADDED from [:react-native-firebase_app] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:28:13-37
+	android:initOrder
+		ADDED from [:react-native-firebase_app] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:29:13-35
+	android:name
+		ADDED from [:react-native-firebase_app] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:26:13-88
+provider#com.vinzscam.reactnativefileviewer.FileProvider
+ADDED from [:react-native-file-viewer] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/react-native-file-viewer/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-18:20
+	android:grantUriPermissions
+		ADDED from [:react-native-file-viewer] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/react-native-file-viewer/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-47
+	android:authorities
+		ADDED from [:react-native-file-viewer] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/react-native-file-viewer/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-60
+	android:exported
+		ADDED from [:react-native-file-viewer] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/react-native-file-viewer/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-37
+	android:name
+		ADDED from [:react-native-file-viewer] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/react-native-file-viewer/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-75
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [:react-native-file-viewer] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/react-native-file-viewer/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-17:70
+	android:resource
+		ADDED from [:react-native-file-viewer] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/react-native-file-viewer/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:17:17-67
+	android:name
+		ADDED from [:react-native-file-viewer] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/react-native-file-viewer/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:16:17-67
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from [:react-native-fs] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/react-native-fs/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-81
+MERGED from [:rn-fetch-blob] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:31:5-81
+MERGED from [:rn-fetch-blob] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:31:5-81
+	android:name
+		ADDED from [:react-native-fs] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/react-native-fs/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:22-78
+uses-permission#com.android.vending.CHECK_LICENSE
+ADDED from [:rn-fetch-blob] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-73
+	android:name
+		ADDED from [:rn-fetch-blob] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:22-70
+provider#com.RNFetchBlob.Utils.FileProvider
+ADDED from [:rn-fetch-blob] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:34:9-42:20
+	android:grantUriPermissions
+		ADDED from [:rn-fetch-blob] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:38:13-47
+	android:authorities
+		ADDED from [:rn-fetch-blob] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:36:13-60
+	android:exported
+		ADDED from [:rn-fetch-blob] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:37:13-37
+	android:name
+		ADDED from [:rn-fetch-blob] /Users/lathak/Ongoing/who/HIV_TX/PushFCM/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:35:13-62
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-messaging:23.4.0] /Users/lathak/.gradle/caches/transforms-3/1dd3931f266dd48d2cd86a67d97bb929/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:26:5-82
+MERGED from [com.google.android.gms:play-services-iid:17.0.0] /Users/lathak/.gradle/caches/transforms-3/d73f802733cdc768921e5c56725abe49/transformed/jetified-play-services-iid-17.0.0/AndroidManifest.xml:23:5-82
+MERGED from [com.google.android.gms:play-services-iid:17.0.0] /Users/lathak/.gradle/caches/transforms-3/d73f802733cdc768921e5c56725abe49/transformed/jetified-play-services-iid-17.0.0/AndroidManifest.xml:23:5-82
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.1.0] /Users/lathak/.gradle/caches/transforms-3/bbcaf170a99d250b1eff0497cd0559b2/transformed/jetified-play-services-cloud-messaging-17.1.0/AndroidManifest.xml:11:5-82
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.1.0] /Users/lathak/.gradle/caches/transforms-3/bbcaf170a99d250b1eff0497cd0559b2/transformed/jetified-play-services-cloud-messaging-17.1.0/AndroidManifest.xml:11:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:23.4.0] /Users/lathak/.gradle/caches/transforms-3/1dd3931f266dd48d2cd86a67d97bb929/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:26:22-79
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-messaging:23.4.0] /Users/lathak/.gradle/caches/transforms-3/1dd3931f266dd48d2cd86a67d97bb929/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:29:9-40:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:23.4.0] /Users/lathak/.gradle/caches/transforms-3/1dd3931f266dd48d2cd86a67d97bb929/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:31:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-messaging:23.4.0] /Users/lathak/.gradle/caches/transforms-3/1dd3931f266dd48d2cd86a67d97bb929/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:32:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:23.4.0] /Users/lathak/.gradle/caches/transforms-3/1dd3931f266dd48d2cd86a67d97bb929/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:30:13-78
+meta-data#com.google.android.gms.cloudmessaging.FINISHED_AFTER_HANDLED
+ADDED from [com.google.firebase:firebase-messaging:23.4.0] /Users/lathak/.gradle/caches/transforms-3/1dd3931f266dd48d2cd86a67d97bb929/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:37:13-39:40
+	android:value
+		ADDED from [com.google.firebase:firebase-messaging:23.4.0] /Users/lathak/.gradle/caches/transforms-3/1dd3931f266dd48d2cd86a67d97bb929/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:39:17-37
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:23.4.0] /Users/lathak/.gradle/caches/transforms-3/1dd3931f266dd48d2cd86a67d97bb929/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:38:17-92
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:23.4.0] /Users/lathak/.gradle/caches/transforms-3/1dd3931f266dd48d2cd86a67d97bb929/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:46:9-53:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:23.4.0] /Users/lathak/.gradle/caches/transforms-3/1dd3931f266dd48d2cd86a67d97bb929/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:49:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-messaging:23.4.0] /Users/lathak/.gradle/caches/transforms-3/1dd3931f266dd48d2cd86a67d97bb929/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:48:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:23.4.0] /Users/lathak/.gradle/caches/transforms-3/1dd3931f266dd48d2cd86a67d97bb929/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:47:13-82
+meta-data#com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingKtxRegistrar
+ADDED from [com.google.firebase:firebase-messaging:23.4.0] /Users/lathak/.gradle/caches/transforms-3/1dd3931f266dd48d2cd86a67d97bb929/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:57:13-59:85
+	android:value
+		ADDED from [com.google.firebase:firebase-messaging:23.4.0] /Users/lathak/.gradle/caches/transforms-3/1dd3931f266dd48d2cd86a67d97bb929/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:59:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:23.4.0] /Users/lathak/.gradle/caches/transforms-3/1dd3931f266dd48d2cd86a67d97bb929/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:58:17-122
+meta-data#com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar
+ADDED from [com.google.firebase:firebase-messaging:23.4.0] /Users/lathak/.gradle/caches/transforms-3/1dd3931f266dd48d2cd86a67d97bb929/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:60:13-62:85
+	android:value
+		ADDED from [com.google.firebase:firebase-messaging:23.4.0] /Users/lathak/.gradle/caches/transforms-3/1dd3931f266dd48d2cd86a67d97bb929/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:62:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:23.4.0] /Users/lathak/.gradle/caches/transforms-3/1dd3931f266dd48d2cd86a67d97bb929/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:61:17-119
+meta-data#com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar
+ADDED from [com.google.firebase:firebase-datatransport:18.1.7] /Users/lathak/.gradle/caches/transforms-3/7340e9f7181e7ca537dc07334dce5584/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:27:13-29:85
+	android:value
+		ADDED from [com.google.firebase:firebase-datatransport:18.1.7] /Users/lathak/.gradle/caches/transforms-3/7340e9f7181e7ca537dc07334dce5584/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:29:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-datatransport:18.1.7] /Users/lathak/.gradle/caches/transforms-3/7340e9f7181e7ca537dc07334dce5584/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:28:17-115
+service#com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/lathak/.gradle/caches/transforms-3/7172893dc40c53a03e94b848ce8b95fc/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:28:9-34:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] /Users/lathak/.gradle/caches/transforms-3/cb7b1a41f260cd4c5b1e27431f89f6eb/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:36:9-38:40
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] /Users/lathak/.gradle/caches/transforms-3/cb7b1a41f260cd4c5b1e27431f89f6eb/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:36:9-38:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/lathak/.gradle/caches/transforms-3/7172893dc40c53a03e94b848ce8b95fc/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/lathak/.gradle/caches/transforms-3/7172893dc40c53a03e94b848ce8b95fc/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:29:13-103
+meta-data#backend:com.google.android.datatransport.cct.CctBackendFactory
+ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/lathak/.gradle/caches/transforms-3/7172893dc40c53a03e94b848ce8b95fc/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:31:13-33:39
+	android:value
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/lathak/.gradle/caches/transforms-3/7172893dc40c53a03e94b848ce8b95fc/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:33:17-36
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/lathak/.gradle/caches/transforms-3/7172893dc40c53a03e94b848ce8b95fc/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:32:17-94
+service#com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+ADDED from [com.google.android.datatransport:transport-runtime:3.1.8] /Users/lathak/.gradle/caches/transforms-3/cb7b1a41f260cd4c5b1e27431f89f6eb/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:26:9-30:19
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.8] /Users/lathak/.gradle/caches/transforms-3/cb7b1a41f260cd4c5b1e27431f89f6eb/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:28:13-37
+	android:permission
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.8] /Users/lathak/.gradle/caches/transforms-3/cb7b1a41f260cd4c5b1e27431f89f6eb/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:29:13-69
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.8] /Users/lathak/.gradle/caches/transforms-3/cb7b1a41f260cd4c5b1e27431f89f6eb/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:27:13-117
+receiver#com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+ADDED from [com.google.android.datatransport:transport-runtime:3.1.8] /Users/lathak/.gradle/caches/transforms-3/cb7b1a41f260cd4c5b1e27431f89f6eb/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:32:9-34:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.8] /Users/lathak/.gradle/caches/transforms-3/cb7b1a41f260cd4c5b1e27431f89f6eb/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:34:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.8] /Users/lathak/.gradle/caches/transforms-3/cb7b1a41f260cd4c5b1e27431f89f6eb/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:33:13-132
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar
+ADDED from [com.google.firebase:firebase-installations:17.2.0] /Users/lathak/.gradle/caches/transforms-3/c7dde428608eeee547683f6ef3459826/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:15:13-17:85
+	android:value
+		ADDED from [com.google.firebase:firebase-installations:17.2.0] /Users/lathak/.gradle/caches/transforms-3/c7dde428608eeee547683f6ef3459826/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:17:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:17.2.0] /Users/lathak/.gradle/caches/transforms-3/c7dde428608eeee547683f6ef3459826/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:16:17-130
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar
+ADDED from [com.google.firebase:firebase-installations:17.2.0] /Users/lathak/.gradle/caches/transforms-3/c7dde428608eeee547683f6ef3459826/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:18:13-20:85
+	android:value
+		ADDED from [com.google.firebase:firebase-installations:17.2.0] /Users/lathak/.gradle/caches/transforms-3/c7dde428608eeee547683f6ef3459826/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:20:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:17.2.0] /Users/lathak/.gradle/caches/transforms-3/c7dde428608eeee547683f6ef3459826/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:19:17-127
+meta-data#com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar
+ADDED from [com.google.firebase:firebase-common-ktx:20.4.2] /Users/lathak/.gradle/caches/transforms-3/73f17854447028e3cbeabaa558136b4f/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.firebase:firebase-common-ktx:20.4.2] /Users/lathak/.gradle/caches/transforms-3/73f17854447028e3cbeabaa558136b4f/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-common-ktx:20.4.2] /Users/lathak/.gradle/caches/transforms-3/73f17854447028e3cbeabaa558136b4f/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:13:17-116
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:20.4.2] /Users/lathak/.gradle/caches/transforms-3/83fb80746af078c658b88e01334c879d/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:23:9-28:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:20.4.2] /Users/lathak/.gradle/caches/transforms-3/83fb80746af078c658b88e01334c879d/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:25:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:20.4.2] /Users/lathak/.gradle/caches/transforms-3/83fb80746af078c658b88e01334c879d/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:27:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.4.2] /Users/lathak/.gradle/caches/transforms-3/83fb80746af078c658b88e01334c879d/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:26:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:20.4.2] /Users/lathak/.gradle/caches/transforms-3/83fb80746af078c658b88e01334c879d/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:28:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:20.4.2] /Users/lathak/.gradle/caches/transforms-3/83fb80746af078c658b88e01334c879d/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:24:13-77
+meta-data#com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar
+ADDED from [com.google.firebase:firebase-common:20.4.2] /Users/lathak/.gradle/caches/transforms-3/83fb80746af078c658b88e01334c879d/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:35:13-37:85
+	android:value
+		ADDED from [com.google.firebase:firebase-common:20.4.2] /Users/lathak/.gradle/caches/transforms-3/83fb80746af078c658b88e01334c879d/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:37:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-common:20.4.2] /Users/lathak/.gradle/caches/transforms-3/83fb80746af078c658b88e01334c879d/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:36:17-109
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:20.7.0] /Users/lathak/.gradle/caches/transforms-3/b871757fb0b4bb0aefa7fd19e05a9a3e/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:23:9-27:75
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] /Users/lathak/.gradle/caches/transforms-3/b871757fb0b4bb0aefa7fd19e05a9a3e/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:25:13-46
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] /Users/lathak/.gradle/caches/transforms-3/b871757fb0b4bb0aefa7fd19e05a9a3e/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] /Users/lathak/.gradle/caches/transforms-3/b871757fb0b4bb0aefa7fd19e05a9a3e/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:27:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] /Users/lathak/.gradle/caches/transforms-3/b871757fb0b4bb0aefa7fd19e05a9a3e/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:24:13-93
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:20.7.0] /Users/lathak/.gradle/caches/transforms-3/b871757fb0b4bb0aefa7fd19e05a9a3e/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:33:9-37:51
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] /Users/lathak/.gradle/caches/transforms-3/b871757fb0b4bb0aefa7fd19e05a9a3e/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:35:13-36
+	android:visibleToInstantApps
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] /Users/lathak/.gradle/caches/transforms-3/b871757fb0b4bb0aefa7fd19e05a9a3e/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:37:13-48
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] /Users/lathak/.gradle/caches/transforms-3/b871757fb0b4bb0aefa7fd19e05a9a3e/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:36:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] /Users/lathak/.gradle/caches/transforms-3/b871757fb0b4bb0aefa7fd19e05a9a3e/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:34:13-89
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/lathak/.gradle/caches/transforms-3/b1e6c70f0a9b2633c78c341afc7965b2/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/lathak/.gradle/caches/transforms-3/b1e6c70f0a9b2633c78c341afc7965b2/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/lathak/.gradle/caches/transforms-3/b1e6c70f0a9b2633c78c341afc7965b2/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/lathak/.gradle/caches/transforms-3/b1e6c70f0a9b2633c78c341afc7965b2/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.2.0] /Users/lathak/.gradle/caches/transforms-3/39528a1d149778f51a91310d3762e4d3/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.2.0] /Users/lathak/.gradle/caches/transforms-3/39528a1d149778f51a91310d3762e4d3/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.2.0] /Users/lathak/.gradle/caches/transforms-3/39528a1d149778f51a91310d3762e4d3/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:22:13-58
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/lathak/.gradle/caches/transforms-3/164ece5373d9e042b05ffe4bb274b191/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/lathak/.gradle/caches/transforms-3/a66a57866f9b56548f4a7cd4a00ac0cf/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/lathak/.gradle/caches/transforms-3/a66a57866f9b56548f4a7cd4a00ac0cf/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/lathak/.gradle/caches/transforms-3/91d87b7190601bad28c7ad5d9c9d4b88/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/lathak/.gradle/caches/transforms-3/91d87b7190601bad28c7ad5d9c9d4b88/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/lathak/.gradle/caches/transforms-3/164ece5373d9e042b05ffe4bb274b191/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:30:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/lathak/.gradle/caches/transforms-3/164ece5373d9e042b05ffe4bb274b191/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/lathak/.gradle/caches/transforms-3/164ece5373d9e042b05ffe4bb274b191/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/lathak/.gradle/caches/transforms-3/164ece5373d9e042b05ffe4bb274b191/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/lathak/.gradle/caches/transforms-3/164ece5373d9e042b05ffe4bb274b191/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/lathak/.gradle/caches/transforms-3/164ece5373d9e042b05ffe4bb274b191/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/lathak/.gradle/caches/transforms-3/164ece5373d9e042b05ffe4bb274b191/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/lathak/.gradle/caches/transforms-3/a66a57866f9b56548f4a7cd4a00ac0cf/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/lathak/.gradle/caches/transforms-3/a66a57866f9b56548f4a7cd4a00ac0cf/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/lathak/.gradle/caches/transforms-3/a66a57866f9b56548f4a7cd4a00ac0cf/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.android.installreferrer:installreferrer:1.1.2] /Users/lathak/.gradle/caches/transforms-3/1030bea5bdcc199fea7899eac15e52ec/transformed/jetified-installreferrer-1.1.2/AndroidManifest.xml:9:5-110
+	android:name
+		ADDED from [com.android.installreferrer:installreferrer:1.1.2] /Users/lathak/.gradle/caches/transforms-3/1030bea5bdcc199fea7899eac15e52ec/transformed/jetified-installreferrer-1.1.2/AndroidManifest.xml:9:22-107
+uses-permission#com.sec.android.provider.badge.permission.READ
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/lathak/.gradle/caches/transforms-3/e6a83873ebaf787421c56147ece75a17/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:19:5-86
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/lathak/.gradle/caches/transforms-3/e6a83873ebaf787421c56147ece75a17/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:19:22-83
+uses-permission#com.sec.android.provider.badge.permission.WRITE
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/lathak/.gradle/caches/transforms-3/e6a83873ebaf787421c56147ece75a17/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:20:5-87
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/lathak/.gradle/caches/transforms-3/e6a83873ebaf787421c56147ece75a17/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:20:22-84
+uses-permission#com.htc.launcher.permission.READ_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/lathak/.gradle/caches/transforms-3/e6a83873ebaf787421c56147ece75a17/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:23:5-81
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/lathak/.gradle/caches/transforms-3/e6a83873ebaf787421c56147ece75a17/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:23:22-78
+uses-permission#com.htc.launcher.permission.UPDATE_SHORTCUT
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/lathak/.gradle/caches/transforms-3/e6a83873ebaf787421c56147ece75a17/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:24:5-83
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/lathak/.gradle/caches/transforms-3/e6a83873ebaf787421c56147ece75a17/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:24:22-80
+uses-permission#com.sonyericsson.home.permission.BROADCAST_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/lathak/.gradle/caches/transforms-3/e6a83873ebaf787421c56147ece75a17/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:27:5-88
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/lathak/.gradle/caches/transforms-3/e6a83873ebaf787421c56147ece75a17/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:27:22-85
+uses-permission#com.sonymobile.home.permission.PROVIDER_INSERT_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/lathak/.gradle/caches/transforms-3/e6a83873ebaf787421c56147ece75a17/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:28:5-92
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/lathak/.gradle/caches/transforms-3/e6a83873ebaf787421c56147ece75a17/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:28:22-89
+uses-permission#com.anddoes.launcher.permission.UPDATE_COUNT
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/lathak/.gradle/caches/transforms-3/e6a83873ebaf787421c56147ece75a17/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:31:5-84
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/lathak/.gradle/caches/transforms-3/e6a83873ebaf787421c56147ece75a17/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:31:22-81
+uses-permission#com.majeur.launcher.permission.UPDATE_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/lathak/.gradle/caches/transforms-3/e6a83873ebaf787421c56147ece75a17/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:34:5-83
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/lathak/.gradle/caches/transforms-3/e6a83873ebaf787421c56147ece75a17/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:34:22-80
+uses-permission#com.huawei.android.launcher.permission.CHANGE_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/lathak/.gradle/caches/transforms-3/e6a83873ebaf787421c56147ece75a17/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:37:5-91
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/lathak/.gradle/caches/transforms-3/e6a83873ebaf787421c56147ece75a17/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:37:22-88
+uses-permission#com.huawei.android.launcher.permission.READ_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/lathak/.gradle/caches/transforms-3/e6a83873ebaf787421c56147ece75a17/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:38:5-92
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/lathak/.gradle/caches/transforms-3/e6a83873ebaf787421c56147ece75a17/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:38:22-89
+uses-permission#com.huawei.android.launcher.permission.WRITE_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/lathak/.gradle/caches/transforms-3/e6a83873ebaf787421c56147ece75a17/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:39:5-93
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/lathak/.gradle/caches/transforms-3/e6a83873ebaf787421c56147ece75a17/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:39:22-90
+uses-permission#android.permission.READ_APP_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/lathak/.gradle/caches/transforms-3/e6a83873ebaf787421c56147ece75a17/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:42:5-73
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/lathak/.gradle/caches/transforms-3/e6a83873ebaf787421c56147ece75a17/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:42:22-70
+uses-permission#com.oppo.launcher.permission.READ_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/lathak/.gradle/caches/transforms-3/e6a83873ebaf787421c56147ece75a17/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:45:5-82
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/lathak/.gradle/caches/transforms-3/e6a83873ebaf787421c56147ece75a17/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:45:22-79
+uses-permission#com.oppo.launcher.permission.WRITE_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/lathak/.gradle/caches/transforms-3/e6a83873ebaf787421c56147ece75a17/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:46:5-83
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/lathak/.gradle/caches/transforms-3/e6a83873ebaf787421c56147ece75a17/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:46:22-80
+uses-permission#me.everything.badger.permission.BADGE_COUNT_READ
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/lathak/.gradle/caches/transforms-3/e6a83873ebaf787421c56147ece75a17/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:49:5-88
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/lathak/.gradle/caches/transforms-3/e6a83873ebaf787421c56147ece75a17/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:49:22-85
+uses-permission#me.everything.badger.permission.BADGE_COUNT_WRITE
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/lathak/.gradle/caches/transforms-3/e6a83873ebaf787421c56147ece75a17/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:50:5-89
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/lathak/.gradle/caches/transforms-3/e6a83873ebaf787421c56147ece75a17/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:50:22-86

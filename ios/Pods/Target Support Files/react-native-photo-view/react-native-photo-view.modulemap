@@ -1,0 +1,6 @@
+framework module react_native_photo_view {
+  umbrella header "react-native-photo-view-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Pods_HIVTX_HIVTXTests {
+  umbrella header "Pods-HIVTX-HIVTXTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
